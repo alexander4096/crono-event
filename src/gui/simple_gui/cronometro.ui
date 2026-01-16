@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>349</width>
+    <height>136</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0">
+      <property name="spacing">
+       <number>2</number>
+      </property>
+      <property name="leftMargin">
+       <number>2</number>
+      </property>
+      <property name="rightMargin">
+       <number>2</number>
+      </property>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_hora">
+          <property name="font">
+           <font>
+            <pointsize>28</pointsize>
+           </font>
+          </property>
+          <property name="inputMethodHints">
+           <set>Qt::ImhNone</set>
+          </property>
+          <property name="text">
+           <string>00:00:00</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="2,0">
+          <property name="sizeConstraint">
+           <enum>QLayout::SetFixedSize</enum>
+          </property>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_reporte">
+            <property name="minimumSize">
+             <size>
+              <width>40</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>160</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_extra">
+            <property name="minimumSize">
+             <size>
+              <width>60</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>8</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>1/1</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="sizeConstraint">
+         <enum>QLayout::SetMinimumSize</enum>
+        </property>
+        <item>
+         <widget class="QPushButton" name="pushButton_iniciar">
+          <property name="styleSheet">
+           <string notr="true">#pushButton_iniciar:hover {
+      background-color: yellow;
+      color: black;
+}</string>
+          </property>
+          <property name="text">
+           <string>Iniciar</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_pausa">
+          <property name="styleSheet">
+           <string notr="true">#pushButton_pausa:hover {
+      background-color: yellow;
+      color: black;
+}</string>
+          </property>
+          <property name="text">
+           <string>Pausar</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_parar">
+          <property name="styleSheet">
+           <string notr="true">#pushButton_parar:hover {
+      background-color: yellow;
+      color: black;
+}</string>
+          </property>
+          <property name="text">
+           <string>Parar</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>349</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuModo">
+    <property name="title">
+     <string>Modo</string>
+    </property>
+    <widget class="QMenu" name="menuListado_de_Eventos">
+     <property name="title">
+      <string>Listado de Eventos</string>
+     </property>
+     <addaction name="actionuno"/>
+    </widget>
+    <addaction name="actionCronometro_Progresivo"/>
+    <addaction name="actionCrono_Regresivo"/>
+    <addaction name="actionHora"/>
+    <addaction name="actionEvento"/>
+    <addaction name="separator"/>
+    <addaction name="menuListado_de_Eventos"/>
+    <addaction name="separator"/>
+    <addaction name="actionEditar_Evento"/>
+    <addaction name="actionAlarma"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionReg_Pausas"/>
+    <addaction name="separator"/>
+    <addaction name="actionConfiguracion_1"/>
+    <addaction name="separator"/>
+    <addaction name="actionSalida"/>
+   </widget>
+   <widget class="QMenu" name="menuAccion">
+    <property name="title">
+     <string>Accion</string>
+    </property>
+    <widget class="QMenu" name="menuBorrar">
+     <property name="title">
+      <string>Borrar</string>
+     </property>
+     <addaction name="actionBorrar_Todo"/>
+     <addaction name="separator"/>
+     <addaction name="actionBorrar_Solo_Crono_Progresivo"/>
+     <addaction name="actionBorrar_Solo_Crono_Regresivo"/>
+     <addaction name="actionBorrar_solo_Crono_Evento"/>
+     <addaction name="separator"/>
+     <addaction name="actionPARAR_TODO_Crono"/>
+    </widget>
+    <addaction name="menuBorrar"/>
+    <addaction name="actionEditar"/>
+   </widget>
+   <widget class="QMenu" name="menuAcerca">
+    <property name="title">
+     <string>Acerca</string>
+    </property>
+    <addaction name="actionAcerca"/>
+    <addaction name="actionAyuda"/>
+    <addaction name="actionLicencia"/>
+   </widget>
+   <addaction name="menuModo"/>
+   <addaction name="menuAccion"/>
+   <addaction name="menuAcerca"/>
+  </widget>
+  <action name="actionLimpiar">
+   <property name="text">
+    <string>Borrar</string>
+   </property>
+  </action>
+  <action name="actionComenzar">
+   <property name="text">
+    <string>Iniciar</string>
+   </property>
+  </action>
+  <action name="actionParar">
+   <property name="text">
+    <string>Parar</string>
+   </property>
+  </action>
+  <action name="actionPausar">
+   <property name="text">
+    <string>Pausar</string>
+   </property>
+  </action>
+  <action name="actionCronometro_Progresivo">
+   <property name="text">
+    <string>Crono Progresivo</string>
+   </property>
+  </action>
+  <action name="actionCrono_Regresivo">
+   <property name="text">
+    <string>Crono Regresivo</string>
+   </property>
+  </action>
+  <action name="actionHora">
+   <property name="text">
+    <string>Hora</string>
+   </property>
+  </action>
+  <action name="actionEvento">
+   <property name="text">
+    <string>Evento</string>
+   </property>
+  </action>
+  <action name="actionConfiguracion">
+   <property name="text">
+    <string>Configuracion</string>
+   </property>
+  </action>
+  <action name="actionSalida">
+   <property name="text">
+    <string>Salida</string>
+   </property>
+  </action>
+  <action name="actionEditar">
+   <property name="text">
+    <string>Editar</string>
+   </property>
+  </action>
+  <action name="actionAlarma">
+   <property name="text">
+    <string>Ediar Alarma</string>
+   </property>
+  </action>
+  <action name="actionReg_Pausas">
+   <property name="text">
+    <string>Registro de Pausas</string>
+   </property>
+  </action>
+  <action name="actionAcerca">
+   <property name="text">
+    <string>Acerca</string>
+   </property>
+  </action>
+  <action name="actionAyuda">
+   <property name="text">
+    <string>Ayuda</string>
+   </property>
+  </action>
+  <action name="actionuno">
+   <property name="text">
+    <string>uno</string>
+   </property>
+  </action>
+  <action name="actionBorrar_Todo">
+   <property name="text">
+    <string>Borrar Todo</string>
+   </property>
+  </action>
+  <action name="actionBorrar_Solo_Crono_Progresivo">
+   <property name="text">
+    <string>Borrar Solo Crono Progresivo</string>
+   </property>
+  </action>
+  <action name="actionBorrar_Solo_Crono_Regresivo">
+   <property name="text">
+    <string>Borrar Solo Crono Regresivo</string>
+   </property>
+  </action>
+  <action name="actionBorrar_solo_Crono_Evento">
+   <property name="text">
+    <string>Borrar solo Crono Evento</string>
+   </property>
+  </action>
+  <action name="actionPARAR_TODO_Crono">
+   <property name="text">
+    <string>PARAR TODO [Crono]</string>
+   </property>
+  </action>
+  <action name="actionEditar_Evento">
+   <property name="text">
+    <string>Editar Evento</string>
+   </property>
+  </action>
+  <action name="actionConfiguracion_1">
+   <property name="text">
+    <string>Configuracion</string>
+   </property>
+  </action>
+  <action name="actionParar_Sonido_Cronometro">
+   <property name="text">
+    <string>Parar Sonido Cronometro</string>
+   </property>
+  </action>
+  <action name="actionLicencia">
+   <property name="text">
+    <string>Licencia</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

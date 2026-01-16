@@ -1,0 +1,80 @@
+-------------------
+1. Estructura que DEBES tener en tu repositorio GitHub:
+
+tu-repositorio/
+├── src/                    # Tu código Python
+│   ├── main.py
+│   ├── ui_files.qrc
+│   └── ...
+├── flatpak/               # Ya lo tienes
+│   ├── com.tudominio.timer.yaml  # Tu manifest
+│   ├── com.tudominio.timer.desktop
+│   ├── com.tudominio.timer.metainfo.xml
+│   └── icons/
+│       ├── com.tudominio.timer.svg
+│       ├── 64x64.png
+│       └── 128x128.png
+├── README.md
+├── LICENSE
+├── requirements.txt       # Dependencias Python
+└── .github/workflows/    # IMPORTANTE: CI automático
+    └── flatpak.yml
+
+------------------
+tu-repositorio/
+├── screenshots/           ← CARPETA IMPORTANTE!
+│   ├── main.png          ← 1280x720 mínimo
+│   ├── settings.png      ← Otra captura
+│   └── notifications.png ← Otra más
+├── data/icons/           ← Iconos
+│   ├── 64x64.png
+│   ├── 128x128.png
+│   └── scalable.svg
+└── flatpak/
+    └── com.cronolinux.cronoevent.yaml
+-----------------
+
+Archivo	Tamaño	Dónde	Para qué
+icon.svg	SVG	data/icons/	Icono escalable
+64x64.png	64x64	data/icons/	Flathub web
+128x128.png	128x128	data/icons/	Principal
+256x256.png	256x256	data/icons/	Escritorios
+main.png	1280x720	screenshots/	Captura 1
+settings.png	1280x720	screenshots/	Captura 2
+-----------------
+
+
+Paso 1: Verifica tu repositorio actual
+
+# En tu repo local
+git status
+git add .
+git commit -m "Preparar para Flathub: añadir CI, metainfo, iconos"
+git push
+
+------------------
+subir a github
+
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/tuusuario/tu-app.git
+git push -u origin main
+
+---------------
+# 1. Crear proyecto local
+mkdir mi-aplicacion
+cd mi-aplicacion
+
+# 2. Inicializar git
+git init
+
+# 3. Añadir código fuente
+mkdir src
+# ... tu código aquí ...
+
+# 4. Subir a GitHub
+git add .
+git commit -m "Versión inicial"
+git remote add origin https://github.com/tuusuario/mi-aplicacion.git
+git push -u origin main

@@ -1,0 +1,198 @@
+{
+    "ui_crono": {
+        "window_title": "Crono Event V1",
+        "menuModo": "Tryb",
+        "actionAlarma": ["Edytuj Alarmę (WYŁ.)", "Edytuj Alarmę (WŁ.)"],
+        "actionConfiguracion_1": "Konfiguracja",
+        "actionCrono_Regresivo": "Licznik Odliczający",
+        "actionCronometro_Progresivo": "Licznik Progresywny",
+        "lineEdit_reporte": ["Progresywny", "Odliczający", "Godzina", "Wydarzenie"],
+        "actionEditar_Evento": "Edytuj Wydarzenie",
+        "actionEvento": "Wydarzenie",
+        "actionHora": "Godzina",
+        "actionReg_Pausas": "Rejestr Przerw",
+        "actionSalida": "Wyjście",
+        "menuAccion": "Akcja",
+        "menuBorrar": "Usuń",
+        "actionEditar": "Edytuj",
+        "actionBorrar_Todo": "Usuń Wszystko",
+        "actionBorrar_Solo_Crono_Progresivo": "Usuń Tylko Licznik Progresywny",
+        "actionBorrar_Solo_Crono_Regresivo": "Usuń Tylko Licznik Odliczający",
+        "actionBorrar_solo_Crono_Evento": "Usuń Tylko Licznik Wydarzenia",
+        "actionPARAR_TODO_Crono": "ZATRZYMAJ WSZYSTKO [Licznik]",
+        "menuListado_de_Eventos": "Lista Wydarzeń",
+        "menuAcerca": "Informacje",
+        "actionAcerca": "Informacje",
+        "actionAyuda": "Pomoc",
+        "actionlicencia": "Licencja",
+        "pushButton_iniciar": "Rozpocznij",
+        "pushButton_pausa": "Pauza",
+        "pushButton_parar": "Zatrzymaj",
+        "pushButton_borrar": "Usuń"
+    },
+
+    "messages_crono": {
+        "Error 1": "błąd JSON",
+        "contenido 1": "niekompatybilna zawartość"
+    },
+
+    "ui_edit_event": {
+        "window_title": "Edytuj Wydarzenie",
+        "label_1": "gg:mm:ss",
+        "label_2": "edytuj wydarzenie",
+        "label_3": "Aktywność",
+        "label_4": "Lista wydarzeń",
+        "pushButton_agregar": "Dodaj",
+        "pushButton_eliminar": "Usuń",
+        "pushButton_guardar": "Zapisz",
+        "pushButton_nuevo": "Nowy",
+        "pushButton_poner_color": "Kolor",
+        "pushButton_quitar": "Usuń",
+        "qmenu_linea_1": "Kopiuj wszystko",
+        "qmenu_linea_2": "Kopiuj zaznaczenie"
+    },
+
+    "messages_edit_event": {
+        "Error 1": "błąd JSON",
+        "contenido 1": "niekompatybilna zawartość",
+        "Error 2": "błąd ogólny",
+        "contenido 2": "Ogólny błąd przy wyborze wydarzenia",
+        "Error 3": "błąd uprawnień",
+        "contenido 3": "błąd przy zapisie pliku",
+        "Error 4": "błąd folderu",
+        "contenido 4": "Błąd Folderu lub pliku",
+        "Error 5": "Błąd JSON 2",
+        "contenido 5": "Błąd przy tworzeniu JSON",
+        "Error 6": "Niewyjaśniony błąd",
+        "contenido 6": "niewyjaśniony błąd przy zapisie pliku",
+        "Error 7": "Błąd wydarzenia",
+        "contenido 7": "Niewyjaśniony błąd przy zapisie pliku",
+        "Error 8": "Błąd usuwania",
+        "contenido 8": "Plik nie istnieje",
+        "Error 9": "Błąd usuwania",
+        "contenido 9": "Nie masz uprawnień do usunięcia",
+        "Error 10": "Błąd usuwania",
+        "contenido 10": "Niewyjaśniony błąd",
+        "Error 11": "Błąd naruszenia",
+        "contenido 11": "Wartości muszą być większe niż:\n - gg: 00\n - mm: 00\n - ss: 00",
+        "Error 12": "Błąd walidacji",
+        "contenido 12": "Pole aktywności jest puste",
+        "title 1": "Zapisywanie Wydarzenia",
+        "respuesta 1": "Wydarzenie zostało zapisane",
+        "title 2": "Usuwanie Wydarzenia",
+        "respuesta 2": "Wydarzenie zostało usunięte"
+    },
+
+    "ui_edit_alarm": {
+        "window_title": "Edytuj Alarm",
+        "label_1": "Tylko Alarm Progresywny",
+        "label_2": "Ustaw gg:mm:ss",
+        "label_3": "Opis Alarmu",
+        "checkBox_activar": "Aktywuj Alarm",
+        "label_4": "Audio",
+        "pushButton_borrar": "Usuń",
+        "pushButton_salvar": "Zapisz",
+        "qmenu_linea_1": "Kopiuj wszystko",
+        "qmenu_linea_2": "Kopiuj zaznaczenie"
+    },
+
+    "messages_edit_alarm": {
+        "Error 1": "Błąd Ogólny",
+        "contenido 1": "Nie można aktywować alarmu, \n klasa główna nie została załadowana",
+        "Error 2": "Błąd walidacji",
+        "contenido 2": "Wartości muszą być większe:\n - gg: 00\n - mm: 00\n - ss: 00",
+        "Error 3": "Błąd walidacji",
+        "contenido 3": "Godzina się powtarza",
+        "Error 4": "Błąd Alarmu",
+        "contenido 4": "Należy wybrać element do usunięcia",
+        "titulo 5": "Zapisywanie Alarmów",
+        "contenido 5": "Alarmy zostały zapisane"
+    },
+
+    "ui_edit_crono": {
+        "window_title": "Edytuj Licznik",
+        "label_1": "Edytuj Licznik:",
+        "label_2": "Tryb",
+        "label_3": "Format: gg:mm:ss",
+        "label_4": "Wynik",
+        "comboBox_modo_crono": ["Progresywny", "Odliczający", "Wydarzenie"],
+        "pushButton_actualizar": "Pobierz",
+        "pushButton_limpiar": "Wyczyść",
+        "pushButton_aplicar": "Zastosuj"
+    },
+
+    "messages_edit_crono": {
+        "Error 1": "Błąd",
+        "contenido 1": "Nie można ODCZYTAĆ danych \nna ekranie licznika",
+        "Error 2": "Błąd",
+        "contenido 2": "Nie można USTAWIC danych \nna ekranie licznika",
+        "Error 3": "Błąd walidacji",
+        "contenido 3": "Wartości nie mogą przekraczać:\n- gg: 99\n- mm: 59\n- ss: 59",
+        "Error 4": "Błąd formatu",
+        "contenido 4": "Proszę wprowadzić prawidłowy format (gg:mm:ss)."
+    },
+
+    "ui_historico_pausa": {
+        "window_title": "Historia Przerw",
+        "label_1": "Historia Przerw",
+        "pushButton_limpiar": "Wyczyść",
+        "pushButton_refrescar": "Odśwież",
+        "titulo_tabla": ["Czas", "Notatka"],
+        "qmenu_linea_1": "Kopiuj Zaznaczenie",
+        "qmenu_linea_2": "Kopiuj całą tabelę"
+    },
+
+    "messages_historico_pausa": {
+        "Error 1": "Błąd",
+        "contenido 1": "Nie można załadować historii przerw, \nKlasa główna nie jest załadowana",
+        "Error 2": "Błąd",
+        "contenido 2": "Nie można usunąć historii przerw, \nKlasa główna nie jest załadowana",
+        "titulo 3": "Brak zaznaczenia",
+        "contenido 3": "Proszę wybrać co najmniej jeden wiersz do skopiowania.",
+        "titulo 4": "Zaznaczone wiersze",
+        "contenido 4": "wiersz(e) do schowka",
+        "titulo 5": "Skopiowano",
+        "contenido 5": "Cała tabela została skopiowana do schowka"
+    },
+
+    "ui_ayuda": {
+        "window_title": "Pomoc",
+        "label_2": "Pomoc",
+        "pushButton_limpiar": "Wyczyść",
+        "pushButton_cerrar": "Zamknij"
+    },
+
+    "ui_config": {
+        "window_title": "Konfiguracja",
+        "label_1": "Konfiguracja",
+        "label_2": "Język",
+        "label_3": "Pozycja Okna Licznika",
+        "label_4": "Pozycja Okna Wydarzenia",
+        "label_5": "Rozmiar Okna Wydarzenia",
+        "pushButton_guardar": "Zapisz",
+        "pushButton_cerrar": "Zamknij",
+        "label": "Czcionki Licznika",
+        "pushButton_fontCrono": "Wybierz Czcionkę",
+        "label_7": "Ustaw Kolor Tekstu Licznika",
+        "pushButton_colorTexto": "Tekst",
+        "pushButton_colorFondo": "Tło",
+        "label_6": "Czcionka Wydarzenia",
+        "label_11": "Przetestuj tutaj",
+        "pushButton_fontEvent": "Wybierz Czcionkę",
+        "label_8": "Czcionka Alarmu",
+        "label_12": "Przetestuj tutaj",
+        "pushButton_fontAlarm": "Wybierz Czcionkę",
+        "label_9": "ŚCIEŻKA GUI",
+        "pushButton_rutaGUI": "Ścieżka",
+        "pushButton_restaurarRuta": "Przywróć Ścieżkę",
+        "label_3": "Zamknij aplikację aby Zastosować zmiany",
+        "pushButton_restaurarConfig": "Przywróć Wszystko"
+    },
+  "messages_config": {
+    "titulo 1": "Wybierz Katalog",
+    "titulo 2": "Zapisywanie",
+    "contenido 2": "Zmiany zostały zapisane \nuruchom ponownie aplikację",
+    "titulo 3": "Przywrócono",
+    "contenido 3": "zapisano z wartościami domyślnymi, \nuruchom ponownie aplikację"
+}
+}

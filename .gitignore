@@ -1,0 +1,14 @@
+# Carpetas personales
+/Documentos/
+/Howto/
+/More information/
+/__pycache__/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Carpetas de dependencias (si aplica)
+node_modules/
+bin/
+obj/

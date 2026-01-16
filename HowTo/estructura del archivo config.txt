@@ -1,0 +1,47 @@
+estructura del archivo config.ini
+
+{
+"general": {
+  "languaje" : "spanish"
+  "gui_path" : "gui"
+ },
+"ventana_ppal": {
+    "pos_xy": [272, 501],
+    "size" :[272, 501]
+    },
+"ventana_evento":{
+    "pos_xy": [272, 501],
+    "size" :[272, 501]
+    },
+"font_crono" : {
+    'family': 'Noto Sans',
+    'point_size': 28,
+    'weight': 400,
+    'italic': False,
+    'underline': False,
+    'strikeout': False,
+    'bold': False
+    },
+"color_crono" : {
+    'texto'  : '#55aa7f',
+    'fondo' : '#fffff'
+    },
+"font_evento" : {
+    'family': 'Noto Sans',
+    'point_size': 28,
+    'weight': 400,
+    'italic': False,
+    'underline': False,
+    'strikeout': False,
+    'bold': False
+    },
+"font_alarma" : {
+    'family': 'Noto Sans',
+    'point_size': 28,
+    'weight': 400,
+    'italic': False,
+    'underline': False,
+    'strikeout': False,
+    'bold': False
+    }
+}

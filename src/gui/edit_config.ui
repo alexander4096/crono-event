@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>440</width>
+    <height>512</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-540</y>
+        <width>418</width>
+        <height>1018</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QFrame" name="frame">
+         <property name="minimumSize">
+          <size>
+           <width>400</width>
+           <height>1000</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+             <widget class="QLabel" name="label_1">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>16</pointsize>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Configuracion</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QGridLayout" name="gridLayout">
+              <item row="2" column="1">
+               <widget class="QLineEdit" name="lineEdit_testCrono">
+                <property name="font">
+                 <font>
+                  <pointsize>28</pointsize>
+                 </font>
+                </property>
+                <property name="inputMask">
+                 <string>00:00:00</string>
+                </property>
+                <property name="text">
+                 <string>00:00:00</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="11" column="0">
+               <widget class="QPushButton" name="pushButton_restaurarConfig">
+                <property name="styleSheet">
+                 <string notr="true">#pushButton_restaurarConfig:hover {
+      background-color: red;
+      color: black;
+}</string>
+                </property>
+                <property name="text">
+                 <string>Restaurar Todo</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QLabel" name="label_10">
+                <property name="font">
+                 <font>
+                  <pointsize>14</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>hh:mm:ss</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="9" column="0">
+               <widget class="QPushButton" name="pushButton_rutaGUI">
+                <property name="styleSheet">
+                 <string notr="true">#pushButton_rutaGUI:hover {
+      background-color: yellow;
+      color: black;
+}</string>
+                </property>
+                <property name="text">
+                 <string>Ruta</string>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="1">
+               <widget class="QLineEdit" name="lineEdit_testEvent">
+                <property name="font">
+                 <font>
+                  <pointsize>28</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Evento</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="1">
+               <widget class="QLabel" name="label_12">
+                <property name="text">
+                 <string>Probar aqui...</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="0">
+               <widget class="QPushButton" name="pushButton_fontAlarm">
+                <property name="styleSheet">
+                 <string notr="true">#pushButton_fontAlarm:hover {
+      background-color: yellow;
+      color: black;
+}</string>
+                </property>
+                <property name="text">
+                 <string>Select Fuente</string>
+                </property>
+               </widget>
+              </item>
+              <item row="8" column="0">
+               <widget class="QLabel" name="label_9">
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Ruta GUI</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QPushButton" name="pushButton_fontCrono">
+                <property name="styleSheet">
+                 <string notr="true">#pushButton_fontCrono:hover {
+      background-color: yellow;
+      color: black;
+}</string>
+                </property>
+                <property name="text">
+                 <string>Select Fuente</string>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="1">
+               <widget class="QLineEdit" name="lineEdit_testAlarm">
+                <property name="font">
+                 <font>
+                  <pointsize>36</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Alarma</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QComboBox" name="comboBox_idioma"/>
+              </item>
+              <item row="6" column="0">
+               <widget class="QLabel" name="label_8">
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Fuente Alarma</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QLabel" name="label_2">
+                <property name="text">
+                 <string>Idioma</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <layout class="QVBoxLayout" name="verticalLayout_2">
+                <item>
+                 <widget class="QLabel" name="label_7">
+                  <property name="text">
+                   <string>Poner Color de texto Cronometro</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_4">
+                  <item>
+                   <widget class="QPushButton" name="pushButton_colorTexto">
+                    <property name="styleSheet">
+                     <string notr="true">#pushButton_colorTexto:hover {
+      background-color: yellow;
+      color: black;
+}</string>
+                    </property>
+                    <property name="text">
+                     <string>Texto</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="pushButton_colorFondo">
+                    <property name="styleSheet">
+                     <string notr="true">#pushButton_colorFondo:hover {
+      background-color: yellow;
+      color: black;
+}</string>
+                    </property>
+                    <property name="text">
+                     <string>Fondo</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+              <item row="4" column="1">
+               <widget class="QLabel" name="label_11">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Probar aqui..</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="0">
+               <widget class="QPushButton" name="pushButton_fontEvent">
+                <property name="styleSheet">
+                 <string notr="true">#pushButton_fontEvent:hover {
+      background-color: yellow;
+      color: black;
+}</string>
+                </property>
+                <property name="text">
+                 <string>Select Fuente</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="label">
+                <property name="text">
+                 <string>Fuentes Cronometro </string>
+                </property>
+               </widget>
+              </item>
+              <item row="11" column="1">
+               <layout class="QHBoxLayout" name="horizontalLayout_3">
+                <item>
+                 <spacer name="horizontalSpacer">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="pushButton_guardar">
+                  <property name="styleSheet">
+                   <string notr="true">#pushButton_guardar:hover {
+      background-color: yellow;
+      color: black;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Guardar</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="pushButton_cerrar">
+                  <property name="styleSheet">
+                   <string notr="true">#pushButton_cerrar:hover {
+      background-color: yellow;
+      color: black;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Cerrar</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item row="9" column="1">
+               <widget class="QLineEdit" name="lineEdit_rutaGUI"/>
+              </item>
+              <item row="4" column="0">
+               <widget class="QLabel" name="label_6">
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Fuente Evento</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="10" column="0">
+               <widget class="QPushButton" name="pushButton_restaurarRuta">
+                <property name="text">
+                 <string>Restaurar Ruta</string>
+                </property>
+               </widget>
+              </item>
+              <item row="10" column="1">
+               <widget class="QLabel" name="label_3">
+                <property name="text">
+                 <string>Cerrar aplicacion para Aplicar cambios </string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,200 @@
+{
+    "ui_crono": {
+        "window_title": "Crono Event V1",
+        "menuModo": "Modo",
+        "actionAlarma": ["Editar Alarma (OFF)", "Editar Alarma (ON)"],
+        "actionConfiguracion_1": "Configuração",
+        "actionCrono_Regresivo": "Cronômetro Regressivo",
+        "actionCronometro_Progresivo": "Cronômetro Progressivo",
+        "lineEdit_reporte": ["Progressivo", "Regressivo", "Hora", "Evento"],
+        "actionEditar_Evento": "Editar Evento",
+        "actionEvento": "Evento",
+        "actionHora": "Hora",
+        "actionReg_Pausas": "Registro de Pausas",
+        "actionSalida": "Sair",
+        "menuAccion": "Ação",
+        "menuBorrar": "Apagar",
+        "actionEditar": "Editar",
+        "actionBorrar_Todo": "Apagar Tudo",
+        "actionBorrar_Solo_Crono_Progresivo": "Apagar Apenas Cronômetro Progressivo",
+        "actionBorrar_Solo_Crono_Regresivo": "Apagar Apenas Cronômetro Regressivo",
+        "actionBorrar_solo_Crono_Evento": "Apagar Apenas Cronômetro de Evento",
+        "actionPARAR_TODO_Crono": "PARAR TUDO [Cronômetro]",
+        "menuListado_de_Eventos": "Lista de Eventos",
+        "menuAcerca": "Sobre",
+        "actionAcerca": "Sobre",
+        "actionAyuda": "Ajuda",
+        "actionlicencia": "Licença",
+        "pushButton_iniciar": "Iniciar",
+        "pushButton_pausa": "Pausa",
+        "pushButton_parar": "Parar",
+        "pushButton_borrar": "Apagar"
+    },
+
+    "messages_crono": {
+        "Error 1": "Erro de JSON",
+        "contenido 1": "Conteúdo incompatível"
+    },
+
+    "ui_edit_event": {
+        "window_title": "Editar Evento",
+        "label_1": "hh:mm:ss",
+        "label_2": "Editar Evento",
+        "label_3": "Atividade",
+        "label_4": "Lista de Eventos",
+        "pushButton_agregar": "Adicionar",
+        "pushButton_eliminar": "Apagar",
+        "pushButton_guardar": "Salvar",
+        "pushButton_nuevo": "Novo",
+        "pushButton_poner_color": "Cor",
+        "pushButton_quitar": "Remover",
+        "qmenu_linea_1": "Copiar tudo",
+        "qmenu_linea_2": "Copiar seleção"
+    },
+
+    "messages_edit_event": {
+        "Error 1": "Erro de JSON",
+        "contenido 1": "Conteúdo incompatível",
+        "Error 2": "Erro Geral",
+        "contenido 2": "Erro geral ao selecionar evento",
+        "Error 3": "Erro de Permissão",
+        "contenido 3": "Erro ao gravar arquivo",
+        "Error 4": "Erro de Pasta",
+        "contenido 4": "Erro de Pasta ou arquivo",
+        "Error 5": "Erro de JSON 2",
+        "contenido 5": "Erro ao criar JSON",
+        "Error 6": "Erro Inexplicável",
+        "contenido 6": "Erro inexplicável ao salvar arquivo",
+        "Error 7": "Erro de Evento",
+        "contenido 7": "Erro inexplicável ao salvar arquivo",
+        "Error 8": "Erro de Exclusão",
+        "contenido 8": "O arquivo não existe",
+        "Error 9": "Erro de Exclusão",
+        "contenido 9": "Você não tem permissão para apagar",
+        "Error 10": "Erro de Exclusão",
+        "contenido 10": "Erro inexplicável",
+        "Error 11": "Erro de Validação",
+        "contenido 11": "Os valores devem ser maiores que:\n - hh: 00\n - mm: 00\n - ss: 00",
+        "Error 12": "Erro de Validação",
+        "contenido 12": "O campo de atividade está vazio",
+        "title 1": "Gravando Evento",
+        "respuesta 1": "O evento foi salvo",
+        "title 2": "Excluindo Evento",
+        "respuesta 2": "O evento foi apagado"
+    },
+
+    "ui_edit_alarm": {
+        "window_title": "Editar Alarme",
+        "label_1": "Apenas Alarme Progressivo",
+        "label_2": "Definir hh:mm:ss",
+        "label_3": "Descrição do Alarme",
+        "checkBox_activar": "Ativar Alarme",
+        "label_4": "Áudio",
+        "pushButton_borrar": "limpar",
+        "pushButton_salvar": "Salvar",
+        "qmenu_linea_1": "Copiar tudo",
+        "qmenu_linea_2": "Copiar seleção"
+    },
+
+    "messages_edit_alarm": {
+        "Error 1": "Erro Geral",
+        "contenido 1": "Não é possível ativar o alarme, \n a classe principal não foi carregada",
+        "Error 2": "Erro de Validação",
+        "contenido 2": "Os valores devem ser maiores:\n - hh: 00\n- mm: 00\n- ss: 00",
+        "Error 3": "Erro de Validação",
+        "contenido 3": "A hora se repete",
+        "Error 4": "Erro de Alarme",
+        "contenido 4": "Você deve selecionar um Item para apagá-lo",
+        "titulo 5": "Guardando Alarmes",
+        "contenido 5": "Os alarmes foram guardados"
+    },
+
+    "ui_edit_crono": {
+        "window_title": "Editar Cronômetro",
+        "label_1": "Editar Cronômetro:",
+        "label_2": "Modo",
+        "label_3": "Formato: hh:mm:ss",
+        "label_4": "Resultado",
+        "comboBox_modo_crono": ["Progressivo", "Regressivo", "Evento"],
+        "pushButton_actualizar": "Obter",
+        "pushButton_limpiar": "Limpar",
+        "pushButton_aplicar": "Aplicar"
+    },
+
+    "messages_edit_crono": {
+        "Error 1": "Erro",
+        "contenido 1": "Não é possível LER dados \nna tela do cronômetro",
+        "Error 2": "Erro",
+        "contenido 2": "Não é possível DEFINIR dados \nna tela do cronômetro",
+        "Error 3": "Erro de Validação",
+        "contenido 3": "Os valores não podem exceder:\n- hh: 99\n- mm: 59\n- ss: 59",
+        "Error 4": "Erro de Formato",
+        "contenido 4": "Por favor, insira um formato válido (hh:mm:ss)."
+    },
+
+    "ui_historico_pausa": {
+        "window_title": "Histórico de Pausas",
+        "label_1": "Histórico de Pausas",
+        "pushButton_limpiar": "Limpar",
+        "pushButton_refrescar": "Atualizar",
+        "titulo_tabla": ["Tempo", "Nota"],
+        "qmenu_linea_1": "Copiar linha selecionada",
+        "qmenu_linea_2": "Copiar tabela inteira"
+    },
+
+    "messages_historico_pausa": {
+        "Error 1": "Erro",
+        "contenido 1": "Não é possível carregar o histórico de pausas, \nA classe principal não está carregada",
+        "Error 2": "Erro",
+        "contenido 2": "Não é possível apagar o histórico de pausas, \nA classe principal não está carregada",
+        "titulo 3": "Nenhuma seleção",
+        "contenido 3": "Selecione pelo menos uma linha para copiar.",
+        "titulo 4": "Linhas selecionadas",
+        "contenido 4": "linha(s) para a área de transferência",
+        "titulo 5": "Copiado",
+        "contenido 5": "A tabela inteira foi copiada para a área de transferência"
+    },
+
+    "ui_ayuda": {
+        "window_title": "Ajuda",
+        "label_2": "Ajuda",
+        "pushButton_limpiar": "Limpar",
+        "pushButton_cerrar": "Fechar"
+    },
+
+    "ui_config": {
+        "window_title": "Configuração",
+        "label_1": "Configurar",
+        "label_2": "Idioma",
+        "label_3": "Posição da Janela Cronômetro",
+        "label_4": "Posição da Janela de Evento",
+        "label_5": "Tamanho da Janela de Evento",
+        "pushButton_guardar": "Salvar",
+        "pushButton_cerrar": "Fechar",
+        "label_1" : "Configurações",
+        "label" : "Fontes do Cronômetro",
+        "pushButton_fontCrono" : "Selecionar Fonte",
+        "label_7" : "Definir Cor do Texto do Cronômetro",
+        "pushButton_colorTexto" : "Texto",
+        "pushButton_colorFondo" : "Fundo",
+        "label_6" : "Fonte do Evento",
+        "label_11" : "Testar aqui",
+        "pushButton_fontEvent" : "Selecionar Fonte",
+        "label_8" : "Fonte do Alarme",
+        "label_12" : "Testar aqui",
+        "pushButton_fontAlarm" : "Selecionar Fonte",
+        "label_9" : "CAMINHO DA GUI",
+        "pushButton_rutaGUI" : "Caminho",
+        "pushButton_restaurarRuta" : "Restaurar Caminho",
+        "label_3" : "Feche o aplicativo para Aplicar alterações",
+        "pushButton_restaurarConfig" : "Restaurar Tudo"
+
+    },
+    "messages_config": {
+    "titulo 1": "Selecionar Diretório",
+    "titulo 2": "Salvando",
+    "contenido 2": "As alterações foram salvas \nreinicie a aplicação",
+    "titulo 3": "Restaurado",
+    "contenido 3": "salvo com valores padrão, \nreinicie a aplicação"
+}
+}

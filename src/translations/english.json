@@ -1,0 +1,199 @@
+{
+    "ui_crono": {
+        "window_title": "Crono Event V1",
+        "menuModo": "Mode",
+        "actionAlarma": ["Edit Alarm (OFF)", "Edit Alarm (ON)"],
+        "actionConfiguracion_1": "Configuration",
+        "actionCrono_Regresivo": "Countdown Timer",
+        "actionCronometro_Progresivo": "Stopwatch",
+        "lineEdit_reporte": ["Stopwatch", "Countdown", "Time", "Event"],
+        "actionEditar_Evento": "Edit Event",
+        "actionEvento": "Event",
+        "actionHora": "Time",
+        "actionReg_Pausas": "Pause Log",
+        "actionSalida": "Exit",
+        "menuAccion": "Action",
+        "menuBorrar": "Delete",
+        "actionEditar": "Edit",
+        "actionBorrar_Todo": "Delete All",
+        "actionBorrar_Solo_Crono_Progresivo": "Delete Stopwatch Only",
+        "actionBorrar_Solo_Crono_Regresivo": "Delete Countdown Only",
+        "actionBorrar_solo_Crono_Evento": "Delete Event Timer Only",
+        "actionPARAR_TODO_Crono": "STOP ALL [Timers]",
+        "menuListado_de_Eventos": "Event List",
+        "menuAcerca": "About",
+        "actionAcerca": "About",
+        "actionAyuda": "Help",
+        "actionlicencia": "License",
+        "pushButton_iniciar": "Start",
+        "pushButton_pausa": "Pause",
+        "pushButton_parar": "Stop",
+        "pushButton_borrar": "Erase"
+    },
+
+    "messages_crono": {
+        "Error 1": "JSON Error",
+        "contenido 1": "Incompatible content"
+    },
+
+    "ui_edit_event": {
+        "window_title": "Edit Event",
+        "label_1": "hh:mm:ss",
+        "label_2": "Edit Event",
+        "label_3": "Activity",
+        "label_4": "Event List",
+        "pushButton_agregar": "Add",
+        "pushButton_eliminar": "Delete",
+        "pushButton_guardar": "Save",
+        "pushButton_nuevo": "New",
+        "pushButton_poner_color": "Color",
+        "pushButton_quitar": "Remove",
+        "qmenu_linea_1": "Copy all",
+        "qmenu_linea_2": "Copy selection"
+    },
+
+    "messages_edit_event": {
+        "Error 1": "JSON Error",
+        "contenido 1": "Incompatible content",
+        "Error 2": "General Error",
+        "contenido 2": "General error when selecting event",
+        "Error 3": "Permission Error",
+        "contenido 3": "Error saving file",
+        "Error 4": "Folder Error",
+        "contenido 4": "Folder or file error",
+        "Error 5": "JSON Error 2",
+        "contenido 5": "Error creating JSON",
+        "Error 6": "Unexplained Error",
+        "contenido 6": "Unexplained error saving file",
+        "Error 7": "Event Error",
+        "contenido 7": "Unexplained error saving file",
+        "Error 8": "Delete Error",
+        "contenido 8": "File does not exist",
+        "Error 9": "Delete Error",
+        "contenido 9": "You don't have permission to delete",
+        "Error 10": "Delete Error",
+        "contenido 10": "Unexplained error",
+        "Error 11": "Validation Error",
+        "contenido 11": "Values must be greater than:\n - hh: 00\n - mm: 00\n - ss: 00",
+        "Error 12": "Validation Error",
+        "contenido 12": "Activity field is empty",
+        "title 1": "Saving Event",
+        "respuesta 1": "Event has been saved",
+        "title 2": "Deleting Event",
+        "respuesta 2": "Event has been deleted"
+    },
+
+    "ui_edit_alarm": {
+        "window_title": "Edit Alarm",
+        "label_1": "Only Progressive Alarm",
+        "label_2": "Set hh:mm:ss",
+        "label_3": "Alarm Description",
+        "checkBox_activar": "Activate Alarm",
+        "label_4": "Audio",
+        "pushButton_borrar": "Clean",
+        "pushButton_salvar": "Save",
+        "qmenu_linea_1": "Copy all",
+        "qmenu_linea_2": "Copy selection"
+    },
+
+    "messages_edit_alarm": {
+        "Error 1": "General Error",
+        "contenido 1": "Cannot activate alarm, \n main class not loaded",
+        "Error 2": "Validation Error",
+        "contenido 2": "Values must be greater than:\n - hh: 00\n- mm: 00\n- ss: 00",
+        "Error 3": "Validation Error",
+        "contenido 3": "Time is repeated",
+        "Error 4": "Alarm Error",
+        "contenido 4": "You must select an Item to delete it",
+        "titulo 5": "Saving Alarms",
+        "contenido 5": "The alarms have been saved"
+    },
+
+    "ui_edit_crono": {
+        "window_title": "Edit Timer",
+        "label_1": "Edit Timer:",
+        "label_2": "Mode",
+        "label_3": "Format: hh:mm:ss",
+        "label_4": "Result",
+        "comboBox_modo_crono": ["Stopwatch", "Countdown", "Event"],
+        "pushButton_actualizar": "Get",
+        "pushButton_limpiar": "Clear",
+        "pushButton_aplicar": "Apply"
+    },
+
+    "messages_edit_crono": {
+        "Error 1": "Error",
+        "contenido 1": "Cannot READ data \non timer screen",
+        "Error 2": "Error",
+        "contenido 2": "Cannot SET data \non timer screen",
+        "Error 3": "Validation Error",
+        "contenido 3": "Values cannot exceed:\n- hh: 99\n- mm: 59\n- ss: 59",
+        "Error 4": "Format Error",
+        "contenido 4": "Please enter a valid format (hh:mm:ss)."
+    },
+
+    "ui_historico_pausa": {
+        "window_title": "Pause History",
+        "label_1": "Pause History",
+        "pushButton_limpiar": "Clear",
+        "pushButton_refrescar": "Refresh",
+        "titulo_tabla": ["Time", "Note"],
+        "qmenu_linea_1": "Copy selected row",
+        "qmenu_linea_2": "Copy entire table"
+    },
+
+    "messages_historico_pausa": {
+        "Error 1": "Error",
+        "contenido 1": "Cannot load pause history, \nMain class not loaded",
+        "Error 2": "Error",
+        "contenido 2": "Cannot delete pause history, \nMain class not loaded",
+         "titulo 3": "No selection",
+        "contenido 3": "Please select at least one row to copy.",
+        "titulo 4": "Selected rows",
+        "contenido 4": "row(s) to clipboard",
+        "titulo 5": "Copied",
+        "contenido 5": "The entire table was copied to the clipboard"
+    },
+
+    "ui_ayuda": {
+        "window_title": "Help",
+        "label_2": "Help",
+        "pushButton_limpiar": "Clear",
+        "pushButton_cerrar": "Close"
+    },
+
+    "ui_config": {
+        "window_title": "Configuration",
+        "label_1": "Configure",
+        "label_2": "Language",
+        "label_3": "Crono Window Position",
+        "label_4": "Event Window Position",
+        "label_5": "Event Window Size",
+        "pushButton_guardar": "Save",
+        "pushButton_cerrar": "Close",
+        "label_1" : "Settings",
+        "label" : "Timer Fonts",
+        "pushButton_fontCrono" : "Select Font",
+        "label_7" : "Set Timer Text Color",
+        "pushButton_colorTexto" : "Text",
+        "pushButton_colorFondo" : "Background",
+        "label_6" : "Event Font",
+        "label_11" : "Test Here",
+        "pushButton_fontEvent" : "Select Font",
+        "label_8" : "Alarm Font",
+        "label_12" : "Test Here",
+        "pushButton_fontAlarm" : "Select Font",
+        "label_9" : "GUI PATH",
+        "pushButton_rutaGUI" : "Path",
+        "pushButton_restaurarRuta" : "Restore Path",
+        "label_3" : "Close application to Apply changes",
+        "pushButton_restaurarConfig" : "Restore All"
+    },
+    "messages_config": {
+    "titulo 1": "Select Directory",
+    "titulo 2": "Saving",
+    "contenido 2": "Changes have been saved \nrestart the application",
+    "titulo 3": "Restored",
+    "contenido 3": "saved with default values, \nrestart the application"
+}
+}

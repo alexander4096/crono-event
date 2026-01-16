@@ -1,0 +1,66 @@
+Les presento mi nuevo programa para uso de la comunidad de Linux.
+
+Se llama:
+Crono-Event
+Version 1.0.0
+Esta hecho en Python 3.13 + PyQT6 y Nuitka para empaquetar a binario.
+Sistema Operativo: Linux  (Debian 13.2 amd64)
+
+esta hecho para sistema operativo Linux
+
+Con este programa podemos llevar el tiempo de los eventos de forma precisa, Crear alarmas, ver la hora y mucho mas...
+
+¿Para quien esta orientado el programa?¸
+
+Creadores de contenido, profesionales, maestros, estudiantes, coordinadores o cualquiera que necesite llevar el tiempo de actividades con periodos establecidos.
+
+Entre sus características tenemos:
+
+
+1) Cronometro progresivo y regresivo: nos permite saber el tiempo que lleva una actividad con posibilidad de ajustar el tiempo de su inicio
+
+
+2) Alarmas programadas con sonido:   nos avisa cuando comenzar o terminar una actividad.
+
+
+3) Control de Eventos:  Podemos Llevar el tiempo para las Actividades de forma precisa, bien sea en clase,  haciendo algún trabajo, presentación o exposición. Ademas contamos con un sistema para almacenar los eventos en caso de necesitarlos.
+
+
+4) Histórico de pausas: Esto es algo muy útil cuando se necesitar marcar el momento cuando terminamos una actividad
+
+
+5) Hora en primer plano: Mostrar la hora en primer plano es una forma útil para llevar eventos en OBS o Streaming.
+
+
+6) Multi-Lenguaje: Permite a la comunidad de diferentes paises usar el programa con total comodidad en su idioma.
+
+Entre los idiomas disponibles esta:
+
+- Español
+- Ingles
+- Frances
+- Portugues
+- Aleman
+- Italiano
+- Chino Mandarin
+
+
+7) Donde conseguir el programa y su Precio.
+
+El programa es gratis, pero se aceptan colaboraciones y donaciones de todos los usuarios y la comunidad. En cuanto a su licencia usa GNU GPL 3.0 por lo se puede obtener el código fuente para mejorarlo.
+
+8) Apoyo y Soporte:
+
+Finalmente para toda la comunidad y nuevos usuarios les extiendo una cordial invitación para probar el programa y hacer sugerencias para seguir mejorandolo, ademas de apoyar con donaciones y su publicidad.
+
+Cualquier colaboración que puedan aportar sera bien apreciada.
+
+(Donaciones) Paypal
+https://www.paypal.com/ncp/payment/9JRJ7UTWCU476
+
+(Donaciones) Ko-fi
+https://ko-fi.com/alexander4096
+
+Creador:
+Alexander Rodriguez
+email: alexander1973r@gmail.com

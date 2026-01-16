@@ -1,0 +1,199 @@
+{
+    "ui_crono": {
+        "window_title": "Crono Event V1",
+        "menuModo": "Modus",
+        "actionAlarma": ["Alarm bearbeiten (OFF)", "Alarm bearbeiten (ON)"],
+        "actionConfiguracion_1": "Einstellungen",
+        "actionCrono_Regresivo": "Countdown-Timer",
+        "actionCronometro_Progresivo": "Stoppuhr",
+        "lineEdit_reporte": ["Stoppuhr", "Countdown", "Uhrzeit", "Ereignis"],
+        "actionEditar_Evento": "Ereignis bearbeiten",
+        "actionEvento": "Ereignis",
+        "actionHora": "Uhrzeit",
+        "actionReg_Pausas": "Pausenprotokoll",
+        "actionSalida": "Beenden",
+        "menuAccion": "Aktion",
+        "menuBorrar": "Löschen",
+        "actionEditar": "Bearbeiten",
+        "actionBorrar_Todo": "Alles löschen",
+        "actionBorrar_Solo_Crono_Progresivo": "Nur Stoppuhr löschen",
+        "actionBorrar_Solo_Crono_Regresivo": "Nur Countdown löschen",
+        "actionBorrar_solo_Crono_Evento": "Nur Ereignis-Timer löschen",
+        "actionPARAR_TODO_Crono": "ALLE STOPPEN [Timer]",
+        "menuListado_de_Eventos": "Ereignisliste",
+        "menuAcerca": "Über",
+        "actionAcerca": "Über",
+        "actionAyuda": "Hilfe",
+        "actionlicencia": "Lizenz",
+        "pushButton_iniciar": "Start",
+        "pushButton_pausa": "Pause",
+        "pushButton_parar": "Stopp",
+        "pushButton_borrar": "Löschen"
+    },
+
+    "messages_crono": {
+        "Error 1": "JSON-Fehler",
+        "contenido 1": "Inkompatibler Inhalt"
+    },
+
+    "ui_edit_event": {
+        "window_title": "Ereignis bearbeiten",
+        "label_1": "hh:mm:ss",
+        "label_2": "Ereignis bearbeiten",
+        "label_3": "Aktivität",
+        "label_4": "Ereignisliste",
+        "pushButton_agregar": "Hinzufügen",
+        "pushButton_eliminar": "Löschen",
+        "pushButton_guardar": "Speichern",
+        "pushButton_nuevo": "Neu",
+        "pushButton_poner_color": "Farbe",
+        "pushButton_quitar": "Entfernen",
+        "qmenu_linea_1": "Alle kopieren",
+        "qmenu_linea_2": "Auswahl kopieren"
+    },
+
+    "messages_edit_event": {
+        "Error 1": "JSON-Fehler",
+        "contenido 1": "Inkompatibler Inhalt",
+        "Error 2": "Allgemeiner Fehler",
+        "contenido 2": "Allgemeiner Fehler bei Ereignisauswahl",
+        "Error 3": "Berechtigungsfehler",
+        "contenido 3": "Fehler beim Speichern der Datei",
+        "Error 4": "Ordnerfehler",
+        "contenido 4": "Ordner- oder Dateifehler",
+        "Error 5": "JSON-Fehler 2",
+        "contenido 5": "Fehler beim Erstellen von JSON",
+        "Error 6": "Unerklärlicher Fehler",
+        "contenido 6": "Unerklärlicher Fehler beim Speichern der Datei",
+        "Error 7": "Ereignisfehler",
+        "contenido 7": "Unerklärlicher Fehler beim Speichern der Datei",
+        "Error 8": "Löschfehler",
+        "contenido 8": "Datei existiert nicht",
+        "Error 9": "Löschfehler",
+        "contenido 9": "Sie haben keine Berechtigung zum Löschen",
+        "Error 10": "Löschfehler",
+        "contenido 10": "Unerklärlicher Fehler",
+        "Error 11": "Validierungsfehler",
+        "contenido 11": "Werte müssen größer sein als:\n - hh: 00\n - mm: 00\n - ss: 00",
+        "Error 12": "Validierungsfehler",
+        "contenido 12": "Aktivitätsfeld ist leer",
+        "title 1": "Ereignis wird gespeichert",
+        "respuesta 1": "Ereignis wurde gespeichert",
+        "title 2": "Ereignis wird gelöscht",
+        "respuesta 2": "Ereignis wurde gelöscht"
+    },
+
+    "ui_edit_alarm": {
+        "window_title": "Alarm bearbeiten",
+        "label_1": "Nur progressiver Alarm",
+        "label_2": "hh:mm:ss einstellen",
+        "label_3": "Alarmbeschreibung",
+        "checkBox_activar": "Alarm aktivieren",
+        "label_4": "Audio",
+        "pushButton_borrar": "Löschen",
+        "pushButton_salvar": "Speichern",
+        "qmenu_linea_1": "Alle kopieren",
+        "qmenu_linea_2": "Auswahl kopieren"
+    },
+
+    "messages_edit_alarm": {
+        "Error 1": "Allgemeiner Fehler",
+        "contenido 1": "Alarm kann nicht aktiviert werden, \n Hauptklasse nicht geladen",
+        "Error 2": "Validierungsfehler",
+        "contenido 2": "Werte müssen größer sein als:\n - hh: 00\n- mm: 00\n- ss: 00",
+        "Error 3": "Validierungsfehler",
+        "contenido 3": "Zeit wiederholt sich",
+        "Error 4": "Alarmfehler",
+        "contenido 4": "Sie müssen ein Element zum Löschen auswählen",
+        "titulo 5": "Alarme speichern",
+        "contenido 5": "Die Alarme wurden gespeichert"
+    },
+
+    "ui_edit_crono": {
+        "window_title": "Timer bearbeiten",
+        "label_1": "Timer bearbeiten:",
+        "label_2": "Modus",
+        "label_3": "Format: hh:mm:ss",
+        "label_4": "Ergebnis",
+        "comboBox_modo_crono": ["Stoppuhr", "Countdown", "Ereignis"],
+        "pushButton_actualizar": "Abrufen",
+        "pushButton_limpiar": "Löschen",
+        "pushButton_aplicar": "Übernehmen"
+    },
+
+    "messages_edit_crono": {
+        "Error 1": "Fehler",
+        "contenido 1": "Daten können nicht GELESEN werden \nauf dem Timer-Bildschirm",
+        "Error 2": "Fehler",
+        "contenido 2": "Daten können nicht GESETZT werden \nauf dem Timer-Bildschirm",
+        "Error 3": "Validierungsfehler",
+        "contenido 3": "Werte dürfen nicht überschreiten:\n- hh: 99\n- mm: 59\n- ss: 59",
+        "Error 4": "Formatfehler",
+        "contenido 4": "Bitte geben Sie ein gültiges Format ein (hh:mm:ss)."
+    },
+
+    "ui_historico_pausa": {
+        "window_title": "Pausenverlauf",
+        "label_1": "Pausenverlauf",
+        "pushButton_limpiar": "Löschen",
+        "pushButton_refrescar": "Aktualisieren",
+        "titulo_tabla": ["Zeit", "Notiz"],
+        "qmenu_linea_1": "Ausgewählte Zeile kopieren",
+        "qmenu_linea_2": "Gesamte Tabelle kopieren"
+    },
+
+    "messages_historico_pausa": {
+        "Error 1": "Fehler",
+        "contenido 1": "Pausenverlauf kann nicht geladen werden, \nHauptklasse nicht geladen",
+        "Error 2": "Fehler",
+        "contenido 2": "Pausenverlauf kann nicht gelöscht werden, \nHauptklasse nicht geladen",
+        "titulo 3": "Keine Auswahl",
+        "contenido 3": "Bitte mindestens eine Zeile zum Kopieren auswählen.",
+        "titulo 4": "Ausgewählte Zeilen",
+        "contenido 4": "Zeile(n) in die Zwischenablage",
+        "titulo 5": "Kopiert",
+        "contenido 5": "Die gesamte Tabelle wurde in die Zwischenablage kopiert"
+    },
+
+    "ui_ayuda": {
+        "window_title": "Hilfe",
+        "label_2": "Hilfe",
+        "pushButton_limpiar": "Löschen",
+        "pushButton_cerrar": "Schließen"
+    },
+
+    "ui_config": {
+        "window_title": "Einstellungen",
+        "label_1": "Konfigurieren",
+        "label_2": "Sprache",
+        "label_3": "Timer-Fensterposition",
+        "label_4": "Ereignis-Fensterposition",
+        "label_5": "Ereignis-Fenstergröße",
+        "pushButton_guardar": "Speichern",
+        "pushButton_cerrar": "Schließen",
+        "label_1" : "Einstellungen",
+        "label" : "Timer-Schriftarten",
+        "pushButton_fontCrono" : "Schriftart auswählen",
+        "label_7" : "Timer-Textfarbe festlegen",
+        "pushButton_colorTexto" : "Text",
+        "pushButton_colorFondo" : "Hintergrund",
+        "label_6" : "Ereignis-Schriftart",
+        "label_11" : "Hier testen",
+        "pushButton_fontEvent" : "Schriftart auswählen",
+        "label_8" : "Alarm-Schriftart",
+        "label_12" : "Hier testen",
+        "pushButton_fontAlarm" : "Schriftart auswählen",
+        "label_9" : "GUI-PFAD",
+        "pushButton_rutaGUI" : "Pfad",
+        "pushButton_restaurarRuta" : "Pfad wiederherstellen",
+        "label_3" : "Anwendung schließen, um Änderungen zu übernehmen",
+        "pushButton_restaurarConfig" : "Alles wiederherstellen"
+    },
+    "messages_config": {
+    "titulo 1": "Verzeichnis auswählen",
+    "titulo 2": "Speichern",
+    "contenido 2": "Änderungen wurden gespeichert \nstarten Sie die Anwendung neu",
+    "titulo 3": "Wiederhergestellt",
+    "contenido 3": "mit Standardwerten gespeichert, \nstarten Sie die Anwendung neu"
+}
+}

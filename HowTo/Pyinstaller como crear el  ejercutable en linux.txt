@@ -1,0 +1,42 @@
+(multiple files)
+
+pyinstaller --windowed --name crono-event \
+            --add-data "translations/*:translations" \
+            --add-data "gui/*:gui" \
+             --add-data "wav/*:wav" \
+            --add-data "icons/*:icons" \
+            main.py
+-----------------------------------
+(one file)
+
+pyinstaller --onefile --name crono-event \
+            --add-data "translations/*:translations" \
+            --add-data "gui/*:gui" \
+            --add-data "wav/*:wav" \
+            --add-data "icons/*:icons" \
+            main.py
+
+
+
+paso 2
+
+copiar
+
+carpeta:
+      gui
+      wav
+      translations
+archivos:
+    about.txt
+    Licencia_gpl-3-0.txt
+    ICOcronoV2.png
+
+
+
+-----------------------------------------------------------------
+otros pasos:
+# crear subcarpeta gui en la raiz y copiar todo el contenid
+  gui en esta carpeta
+
+# copiar ICOcronoV2.png a raiz.
+------------------------------------------------------------------

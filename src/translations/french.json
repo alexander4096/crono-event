@@ -1,0 +1,201 @@
+{
+    "ui_crono": {
+        "window_title": "Crono Event V1",
+        "menuModo": "Mode",
+        "actionAlarma": ["Modifier l'Alarme (OFF)", "Modifier l'Alarme (ON)"],
+        "actionConfiguracion_1": "Configuration",
+        "actionCrono_Regresivo": "Compte à Rebours",
+        "actionCronometro_Progresivo": "Chronomètre",
+        "lineEdit_reporte": ["Chronomètre", "Compte à Rebours", "Heure", "Événement"],
+        "actionEditar_Evento": "Modifier l'Événement",
+        "actionEvento": "Événement",
+        "actionHora": "Heure",
+        "actionReg_Pausas": "Journal des Pauses",
+        "actionSalida": "Quitter",
+        "menuAccion": "Action",
+        "menuBorrar": "Supprimer",
+        "actionEditar": "Modifier",
+        "actionBorrar_Todo": "Tout Supprimer",
+        "actionBorrar_Solo_Crono_Progresivo": "Supprimer Seulement le Chronomètre",
+        "actionBorrar_Solo_Crono_Regresivo": "Supprimer Seulement le Compte à Rebours",
+        "actionBorrar_solo_Crono_Evento": "Supprimer Seulement le Chrono Événement",
+        "actionPARAR_TODO_Crono": "TOUT ARRÊTER [Chrono]",
+        "menuListado_de_Eventos": "Liste des Événements",
+        "menuAcerca": "À Propos",
+        "actionAcerca": "À Propos",
+        "actionAyuda": "Aide",
+        "actionlicencia": "Licence",
+        "pushButton_iniciar": "Démarrer",
+        "pushButton_pausa": "Pause",
+        "pushButton_parar": "Arrêter",
+        "pushButton_borrar": "Effacer"
+    },
+
+    "messages_crono": {
+        "Error 1": "Erreur JSON",
+        "contenido 1": "Contenu incompatible"
+    },
+
+    "ui_edit_event": {
+        "window_title": "Modifier l'Événement",
+        "label_1": "hh:mm:ss",
+        "label_2": "Modifier l'Événement",
+        "label_3": "Activité",
+        "label_4": "Liste des Événements",
+        "pushButton_agregar": "Ajouter",
+        "pushButton_eliminar": "Supprimer",
+        "pushButton_guardar": "Enregistrer",
+        "pushButton_nuevo": "Nouveau",
+        "pushButton_poner_color": "Couleur",
+        "pushButton_quitar": "Retirer",
+        "qmenu_linea_1": "Tout copier",
+        "qmenu_linea_2": "Copier la sélection"
+
+    },
+
+    "messages_edit_event": {
+        "Error 1": "Erreur JSON",
+        "contenido 1": "Contenu incompatible",
+        "Error 2": "Erreur Générale",
+        "contenido 2": "Erreur générale lors de la sélection de l'événement",
+        "Error 3": "Erreur de Permission",
+        "contenido 3": "Erreur lors de l'enregistrement du fichier",
+        "Error 4": "Erreur de Dossier",
+        "contenido 4": "Erreur de Dossier ou de fichier",
+        "Error 5": "Erreur JSON 2",
+        "contenido 5": "Erreur lors de la création du JSON",
+        "Error 6": "Erreur Inexplicable",
+        "contenido 6": "Erreur inexplicable lors de l'enregistrement du fichier",
+        "Error 7": "Erreur d'Événement",
+        "contenido 7": "Erreur inexplicable lors de l'enregistrement du fichier",
+        "Error 8": "Erreur de Suppression",
+        "contenido 8": "Le fichier n'existe pas",
+        "Error 9": "Erreur de Suppression",
+        "contenido 9": "Vous n'avez pas la permission de supprimer",
+        "Error 10": "Erreur de Suppression",
+        "contenido 10": "Erreur inexplicable",
+        "Error 11": "Erreur de Validation",
+        "contenido 11": "Les valeurs doivent être supérieures à:\n - hh: 00\n - mm: 00\n - ss: 00",
+        "Error 12": "Erreur de Validation",
+        "contenido 12": "Le champ d'activité est vide",
+        "title 1": "Enregistrement de l'Événement",
+        "respuesta 1": "L'événement a été enregistré",
+        "title 2": "Suppression de l'Événement",
+        "respuesta 2": "L'événement a été supprimé"
+    },
+
+    "ui_edit_alarm": {
+        "window_title": "Modifier l'Alarme",
+        "label_1": "Alarme Progressive Seulement",
+        "label_2": "Définir hh:mm:ss",
+        "label_3": "Description de l'Alarme",
+        "checkBox_activar": "Activer l'Alarme",
+        "label_4": "Audio",
+        "pushButton_borrar": "Supprimer",
+        "pushButton_salvar": "Enregistrer",
+        "qmenu_linea_1": "Tout copier",
+        "qmenu_linea_2": "Copier la sélection"
+
+    },
+
+    "messages_edit_alarm": {
+        "Error 1": "Erreur Générale",
+        "contenido 1": "Impossible d'activer l'alarme, \n classe principale non chargée",
+        "Error 2": "Erreur de Validation",
+        "contenido 2": "Les valeurs doivent être supérieures:\n - hh: 00\n- mm: 00\n- ss: 00",
+        "Error 3": "Erreur de Validation",
+        "contenido 3": "L'heure se répète",
+        "Error 4": "Erreur d'Alarme",
+        "contenido 4": "Vous devez sélectionner un élément pour le supprimer",
+        "titulo 5": "Enregistrement des alarmes",
+        "contenido 5": "Les alarmes ont été enregistrées"
+    },
+
+    "ui_edit_crono": {
+        "window_title": "Modifier le Chronomètre",
+        "label_1": "Modifier le Chronomètre:",
+        "label_2": "Mode",
+        "label_3": "Format: hh:mm:ss",
+        "label_4": "Résultat",
+        "comboBox_modo_crono": ["Chronomètre", "Compte à Rebours", "Événement"],
+        "pushButton_actualizar": "Obtenir",
+        "pushButton_limpiar": "Effacer",
+        "pushButton_aplicar": "Appliquer"
+    },
+
+    "messages_edit_crono": {
+        "Error 1": "Erreur",
+        "contenido 1": "Impossible de LIRE les données \nsur l'écran du chronomètre",
+        "Error 2": "Erreur",
+        "contenido 2": "Impossible de DÉFINIR les données \nsur l'écran du chronomètre",
+        "Error 3": "Erreur de Validation",
+        "contenido 3": "Les valeurs ne peuvent pas dépasser:\n- hh: 99\n- mm: 59\n- ss: 59",
+        "Error 4": "Erreur de Format",
+        "contenido 4": "Veuillez saisir un format valide (hh:mm:ss)."
+    },
+
+    "ui_historico_pausa": {
+        "window_title": "Historique des Pauses",
+        "label_1": "Historique des Pauses",
+        "pushButton_limpiar": "Effacer",
+        "pushButton_refrescar": "Actualiser",
+        "titulo_tabla": ["Temps", "Note"],
+        "qmenu_linea_1": "Copier la ligne sélectionnée",
+        "qmenu_linea_2": "Copier tout le tableau"
+    },
+
+    "messages_historico_pausa": {
+        "Error 1": "Erreur",
+        "contenido 1": "Impossible de charger l'historique des pauses, \nClasse principale non chargée",
+        "Error 2": "Erreur",
+        "contenido 2": "Impossible de supprimer l'historique des pauses, \nClasse principale non chargée",
+        "titulo 3": "Aucune sélection",
+        "contenido 3": "Veuillez sélectionner au moins une ligne à copier.",
+        "titulo 4": "Lignes sélectionnées",
+        "contenido 4": "ligne(s) dans le presse-papiers",
+        "titulo 5": "Copié",
+        "contenido 5": "La totalité du tableau a été copiée dans le presse-papiers"
+    },
+
+    "ui_ayuda": {
+        "window_title": "Aide",
+        "label_2": "Aide",
+        "pushButton_limpiar": "Effacer",
+        "pushButton_cerrar": "Fermer"
+    },
+
+    "ui_config": {
+        "window_title": "Configuration",
+        "label_1": "Configurer",
+        "label_2": "Langue",
+        "label_3": "Position de la Fenêtre Chrono",
+        "label_4": "Position de la Fenêtre d'Événement",
+        "label_5": "Taille de la Fenêtre d'Événement",
+        "pushButton_guardar": "Enregistrer",
+        "pushButton_cerrar": "Fermer",
+        "label_1" : "Paramètres",
+        "label" : "Polices du Chronomètre",
+        "pushButton_fontCrono" : "Sélectionner la Police",
+        "label_7" : "Définir la Couleur du Texte du Chronomètre",
+        "pushButton_colorTexto" : "Texte",
+        "pushButton_colorFondo" : "Arrière-plan",
+        "label_6" : "Police de l'Événement",
+        "label_11" : "Tester ici",
+        "pushButton_fontEvent" : "Sélectionner la Police",
+        "label_8" : "Police de l'Alarme",
+        "label_12" : "Tester ici",
+        "pushButton_fontAlarm" : "Sélectionner la Police",
+        "label_9" : "CHEMIN IHM",
+        "pushButton_rutaGUI" : "Chemin",
+        "pushButton_restaurarRuta" : "Restaurer le Chemin",
+        "label_3" : "Fermer l'application pour Appliquer les changements",
+        "pushButton_restaurarConfig" : "Tout Restaurer"
+    },
+    "messages_config": {
+    "titulo 1": "Sélectionner un Répertoire",
+    "titulo 2": "Enregistrement",
+    "contenido 2": "Les modifications ont été enregistrées \nredémarrez l'application",
+    "titulo 3": "Restauré",
+    "contenido 3": "enregistré avec les valeurs par défaut, \nredémarrez l'application"
+}
+}

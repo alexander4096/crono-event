@@ -1,0 +1,100 @@
+(NOTA:)
+flatpack no es bueno para usar pytq6 / librerias QT
+usar GTK4
+
+
+OPCION 2 (crea el paquete flatpak solo y luego lo instala)
+
+2. Comandos completos paso a paso
+
+# Navegar a tu directorio del proyecto
+cd ~/crono-event-flatpak
+
+# Paso 1: Construir en el repositorio local
+flatpak-builder --repo=repo --force-clean build-dir com.tuempresa.cronoevent.yaml
+
+# Paso 2: Crear el archivo .flatpak para distribución
+flatpak build-bundle repo crono-event.flatpak com.tuempresa.cronoevent
+
+# Verificar que se creó el archivo
+ls -lh crono-event.flatpak
+3. Para probar el bundle creado
+bash
+# Instalar desde el bundle (para testing)
+flatpak install --user crono-event.flatpak
+
+# Ejecutar para verificar
+flatpak run com.tuempresa.cronoevent
+
+# Desinstalar si quieres probar de nuevo
+flatpak uninstall --user com.tuempresa.cronoeven
+
+-----------------------------------------------
+
+ANTES DE EMPAQUETAR REVISAR ERRORES EN PYTHON CON
+
+python3 -m compileall src/
+
+OPCION 1 (usar: com.cronolinux.cronoevent)
+
+# Limpiar instalaciones previas
+flatpak uninstall --user com.cronolinux.cronoevent --force-remove
+
+# Construir
+flatpak-builder --repo=repo --force-clean build-dir com.cronolinux.cronoevent.yaml
+
+
+# Crear bundle (Ejecuta desde el directorio donde está repo/ )
+
+flatpak build-bundle repo crono-event.flatpak com.cronolinux.cronoevent
+
+# Instalar
+flatpak install --user crono-event.flatpak
+
+# Probar
+flatpak run com.cronolinux.cronoevent
+
+
+NOTA: si se desea monitorear el avance del proceso de empaquetando con
+
+1) en la primera consola ejecutar
+flatpak build-bundle repo crono-event.flatpak com.cronolinux.cronoevent
+
+2) en la segunda consola ejecuta despues
+# Instalar iotop si no lo tienes
+sudo apt install iotop
+
+# En Terminal 2, monitorear escritura de disco
+sudo iotop -p $(pgrep -f "flatpak build-bundle") -o -a
+
+
+
+-------------------------------------------
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------
+REBUILD
+# Desinstalar completamente
+flatpak uninstall --user com.tuempresa.cronoevent --force-remove
+
+# Reconstruir
+flatpak-builder --repo=repo --force-clean build-dir com.tuempresa.cronoevent.yaml
+
+# Crear bundle
+flatpak build-bundle repo crono-event.flatpak com.tuempresa.cronoevent
+
+# Instalar
+flatpak install --user crono-event.flatpak
+
+# Probar desde escritorio (ahora debería funcionar)
+
+
+--------------------------------------

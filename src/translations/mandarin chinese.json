@@ -1,0 +1,199 @@
+{
+    "ui_crono": {
+        "window_title": "Crono 事件 V1",
+        "menuModo": "模式",
+        "actionAlarma": ["编辑闹钟 (OFF)", "编辑闹钟 (ON)"],
+        "actionConfiguracion_1": "设置",
+        "actionCrono_Regresivo": "倒计时",
+        "actionCronometro_Progresivo": "秒表",
+        "lineEdit_reporte": ["秒表", "倒计时", "时间", "事件"],
+        "actionEditar_Evento": "编辑事件",
+        "actionEvento": "事件",
+        "actionHora": "时间",
+        "actionReg_Pausas": "暂停记录",
+        "actionSalida": "退出",
+        "menuAccion": "操作",
+        "menuBorrar": "删除",
+        "actionEditar": "编辑",
+        "actionBorrar_Todo": "删除全部",
+        "actionBorrar_Solo_Crono_Progresivo": "仅删除秒表",
+        "actionBorrar_Solo_Crono_Regresivo": "仅删除倒计时",
+        "actionBorrar_solo_Crono_Evento": "仅删除事件计时器",
+        "actionPARAR_TODO_Crono": "停止全部[计时器]",
+        "menuListado_de_Eventos": "事件列表",
+        "menuAcerca": "关于",
+        "actionAcerca": "关于",
+        "actionAyuda": "帮助",
+        "actionlicencia": "许可证",
+        "pushButton_iniciar": "开始",
+        "pushButton_pausa": "暂停",
+        "pushButton_parar": "停止",
+        "pushButton_borrar": "删除"
+    },
+
+    "messages_crono": {
+        "Error 1": "JSON错误",
+        "contenido 1": "不兼容的内容"
+    },
+
+    "ui_edit_event": {
+        "window_title": "编辑事件",
+        "label_1": "时:分:秒",
+        "label_2": "编辑事件",
+        "label_3": "活动",
+        "label_4": "事件列表",
+        "pushButton_agregar": "添加",
+        "pushButton_eliminar": "删除",
+        "pushButton_guardar": "保存",
+        "pushButton_nuevo": "新建",
+        "pushButton_poner_color": "颜色",
+        "pushButton_quitar": "移除",
+        "qmenu_linea_1": "复制全部",
+        "qmenu_linea_2": "复制所选"
+    },
+
+    "messages_edit_event": {
+        "Error 1": "JSON错误",
+        "contenido 1": "不兼容的内容",
+        "Error 2": "一般错误",
+        "contenido 2": "选择事件时出现一般错误",
+        "Error 3": "权限错误",
+        "contenido 3": "保存文件时出错",
+        "Error 4": "文件夹错误",
+        "contenido 4": "文件夹或文件错误",
+        "Error 5": "JSON错误2",
+        "contenido 5": "创建JSON时出错",
+        "Error 6": "无法解释的错误",
+        "contenido 6": "保存文件时出现无法解释的错误",
+        "Error 7": "事件错误",
+        "contenido 7": "保存文件时出现无法解释的错误",
+        "Error 8": "删除错误",
+        "contenido 8": "文件不存在",
+        "Error 9": "删除错误",
+        "contenido 9": "您没有删除权限",
+        "Error 10": "删除错误",
+        "contenido 10": "无法解释的错误",
+        "Error 11": "验证错误",
+        "contenido 11": "数值必须大于:\n - 时: 00\n - 分: 00\n - 秒: 00",
+        "Error 12": "验证错误",
+        "contenido 12": "活动字段为空",
+        "title 1": "正在保存事件",
+        "respuesta 1": "事件已保存",
+        "title 2": "正在删除事件",
+        "respuesta 2": "事件已删除"
+    },
+
+    "ui_edit_alarm": {
+        "window_title": "编辑闹钟",
+        "label_1": "仅限渐进式闹钟",
+        "label_2": "设置 时:分:秒",
+        "label_3": "警报描述",
+        "checkBox_activar": "激活闹钟",
+        "label_4": "音频",
+        "pushButton_borrar": "删除",
+        "pushButton_salvar": "保存",
+        "qmenu_linea_1": "复制全部",
+        "qmenu_linea_2": "复制所选"
+    },
+
+    "messages_edit_alarm": {
+        "Error 1": "一般错误",
+        "contenido 1": "无法激活闹钟,\n 主类未加载",
+        "Error 2": "验证错误",
+        "contenido 2": "数值必须大于:\n - 时: 00\n- 分: 00\n- 秒: 00",
+        "Error 3": "验证错误",
+        "contenido 3": "时间重复",
+        "Error 4": "闹钟错误",
+        "contenido 4": "必须选择项目才能删除",
+        "titulo 5": "保存警报",
+        "contenido 5": "警报已保存"
+    },
+
+    "ui_edit_crono": {
+        "window_title": "编辑计时器",
+        "label_1": "编辑计时器:",
+        "label_2": "模式",
+        "label_3": "格式: 时:分:秒",
+        "label_4": "结果",
+        "comboBox_modo_crono": ["秒表", "倒计时", "事件"],
+        "pushButton_actualizar": "获取",
+        "pushButton_limpiar": "清除",
+        "pushButton_aplicar": "应用"
+    },
+
+    "messages_edit_crono": {
+        "Error 1": "错误",
+        "contenido 1": "无法读取计时器屏幕上的数据",
+        "Error 2": "错误",
+        "contenido 2": "无法在计时器屏幕上设置数据",
+        "Error 3": "验证错误",
+        "contenido 3": "数值不能超过:\n- 时: 99\n- 分: 59\n- 秒: 59",
+        "Error 4": "格式错误",
+        "contenido 4": "请输入有效格式 (时:分:秒)。"
+    },
+
+    "ui_historico_pausa": {
+        "window_title": "暂停历史",
+        "label_1": "暂停历史",
+        "pushButton_limpiar": "清除",
+        "pushButton_refrescar": "刷新",
+        "titulo_tabla": ["时间", "笔记"],
+        "qmenu_linea_1": "复制所选行",
+        "qmenu_linea_2": "复制整个表格"
+    },
+
+    "messages_historico_pausa": {
+        "Error 1": "错误",
+        "contenido 1": "无法加载暂停历史,\n主类未加载",
+        "Error 2": "错误",
+        "contenido 2": "无法删除暂停历史,\n主类未加载",
+        "titulo 3": "未选择",
+        "contenido 3": "请至少选择一行以复制。",
+        "titulo 4": "已选行",
+        "contenido 4": "行已复制到剪贴板",
+        "titulo 5": "已复制",
+        "contenido 5": "整个表格已复制到剪贴板"
+    },
+
+    "ui_ayuda": {
+        "window_title": "帮助",
+        "label_2": "帮助",
+        "pushButton_limpiar": "清除",
+        "pushButton_cerrar": "关闭"
+    },
+
+    "ui_config": {
+        "window_title": "设置",
+        "label_1": "配置",
+        "label_2": "语言",
+        "label_3": "Crono窗口位置",
+        "label_4": "事件窗口位置",
+        "label_5": "事件窗口大小",
+        "pushButton_guardar": "保存",
+        "pushButton_cerrar": "关闭",
+        "label_1" : "设置",
+        "label" : "计时器字体",
+        "pushButton_fontCrono" : "选择字体",
+        "label_7" : "设置计时器文字颜色",
+        "pushButton_colorTexto" : "文字",
+        "pushButton_colorFondo" : "背景",
+        "label_6" : "事件字体",
+        "label_11" : "在此测试",
+        "pushButton_fontEvent" : "选择字体",
+        "label_8" : "警报字体",
+        "label_12" : "在此测试",
+        "pushButton_fontAlarm" : "选择字体",
+        "label_9" : "图形界面路径",
+        "pushButton_rutaGUI" : "路径",
+        "pushButton_restaurarRuta" : "恢复路径",
+        "label_3" : "关闭应用程序以应用更改",
+        "pushButton_restaurarConfig" : "恢复全部"
+    },
+    "messages_config": {
+    "titulo 1": "选择目录",
+    "titulo 2": "保存中",
+    "contenido 2": "更改已保存 \n请重启应用程序",
+    "titulo 3": "已恢复",
+    "contenido 3": "已保存为默认值， \n请重启应用程序"
+}
+}

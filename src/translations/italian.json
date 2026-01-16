@@ -1,0 +1,202 @@
+{
+"ui_crono": {
+"window_title": "Crono Evento V1",
+"menuModo": "Modalità",
+    "actionAlarma": ["Modifica Allarme (OFF)", "Modifica Allarme (ON)"],
+    "actionConfiguracion_1": "Configurazione",
+    "actionCrono_Regresivo": "Conto alla Rovescia",
+    "actionCronometro_Progresivo": "Cronometro Progressivo",
+    "lineEdit_reporte": ["Progressivo", "Regressivo", "Ora", "Evento"],
+    "actionEditar_Evento": "Modifica Evento",
+    "actionEvento": "Evento",
+    "actionHora": "Ora",
+    "actionReg_Pausas": "Registro Pause",
+    "actionSalida": "Esci",
+    "menuAccion": "Azione",
+    "menuBorrar": "Elimina",
+    "actionEditar": "Modifica",
+    "actionBorrar_Todo": "Elimina Tutto",
+    "actionBorrar_Solo_Crono_Progresivo": "Elimina Solo Crono Progressivo",
+    "actionBorrar_Solo_Crono_Regresivo": "Elimina Solo Crono Regressivo",
+    "actionBorrar_solo_Crono_Evento": "Elimina Solo Crono Evento",
+    "actionPARAR_TODO_Crono": "FERMA TUTTO [Crono]",
+    "menuListado_de_Eventos": "Elenco Eventi",
+    "menuAcerca": "Informazioni",
+    "actionAcerca": "Informazioni",
+    "actionAyuda": "Aiuto",
+    "actionlicencia": "Licenza",
+    "pushButton_iniciar": "Avvia",
+    "pushButton_pausa": "Pausa",
+    "pushButton_parar": "Ferma",
+    "pushButton_borrar": "Cancella"
+},
+
+  "messages_crono": {
+    "Error 1": "errore di JSON",
+    "contenido 1": "contenuto incompatibile"
+},
+
+"ui_edit_event": {
+    "window_title": "Modifica Evento",
+    "label_1": "hh:mm:ss",
+    "label_2": "modifica evento",
+    "label_3": "Attività",
+    "label_4": "Lista eventi",
+    "pushButton_agregar": "Aggiungi",
+    "pushButton_eliminar": "Elimina",
+    "pushButton_guardar": "Salva",
+    "pushButton_nuevo": "Nuovo",
+    "pushButton_poner_color": "Colore",
+    "pushButton_quitar": "Rimuovi",
+    "qmenu_linea_1": "Copia tutto",
+    "qmenu_linea_2": "Copia selezione"
+},
+
+"messages_edit_event": {
+    "Error 1": "errore di JSON",
+    "contenido 1": "contenuto incompatibile",
+    "Error 2": "errore generale",
+    "contenido 2": "Errore generale nella selezione evento",
+    "Error 3": "errore di permesso",
+    "contenido 3": "errore nel salvataggio del file",
+    "Error 4": "errore di cartella",
+    "contenido 4": "Errore Cartella o file",
+    "Error 5": "Errore di JSON 2",
+    "contenido 5": "Errore nella creazione JSON",
+    "Error 6": "Errore inspiegabile",
+    "contenido 6": "errore inspiegabile nel salvataggio file",
+    "Error 7": "Errore evento",
+    "contenido 7": "Errore inspiegabile nel salvataggio file",
+    "Error 8": "Errore di eliminazione",
+    "contenido 8": "Il file non esiste",
+    "Error 9": "Errore di eliminazione",
+    "contenido 9": "Non hai il permesso di eliminare",
+    "Error 10": "Errore di eliminazione",
+    "contenido 10": "Errore inspiegabile",
+    "Error 11": "Errore di violazione",
+    "contenido 11": "I valori devono essere maggiori di:\n - hh: 00\n - mm: 00\n - ss: 00",
+    "Error 12": "Errore di validazione",
+    "contenido 12": "Il campo attività è vuoto",
+
+    "title 1": "Salvataggio Evento",
+    "respuesta 1": "L'evento è stato salvato",
+    "title 2": "Eliminazione Evento",
+    "respuesta 2": "L'evento è stato eliminato"
+},
+
+"ui_edit_alarm": {
+    "window_title": "Modifica Allarme",
+    "label_1": "Solo Allarme Progressivo",
+    "label_2": "Imposta hh:mm:ss",
+    "label_3": "Descrizione Allarme",
+    "checkBox_activar": "Attiva Allarme",
+    "label_4": "Audio",
+    "pushButton_borrar": "Elimina",
+    "pushButton_salvar": "Salva",
+    "qmenu_linea_1": "Copia tutto",
+    "qmenu_linea_2": "Copia selezione"
+},
+
+"messages_edit_alarm": {
+    "Error 1": "Errore Generale",
+    "contenido 1": "Impossibile attivare l'allarme, \nclasse main non caricata",
+    "Error 2": "Errore di validazione",
+    "contenido 2": "I valori devono essere maggiori:\n - hh: 00\n - mm: 00\n - ss: 00",
+    "Error 3": "Errore di validazione",
+    "contenido 3": "L'ora è duplicata",
+    "Error 4": "Errore Allarme",
+    "contenido 4": "Selezionare un elemento per eliminarlo",
+    "titulo 5": "Salvataggio degli allarmi",
+    "contenido 5": "Gli allarmi sono stati salvati"
+},
+
+"ui_edit_crono": {
+    "window_title": "Modifica Cronometro",
+    "label_1": "Modifica Cronometro:",
+    "label_2": "Modalità",
+    "label_3": "Formato: hh:mm:ss",
+    "label_4": "Risultato",
+    "comboBox_modo_crono": ["Progressivo", "Regressivo", "Evento"],
+    "pushButton_actualizar": "Ottieni",
+    "pushButton_limpiar": "Pulisci",
+    "pushButton_aplicar": "Applica"
+},
+
+"messages_edit_crono": {
+    "Error 1": "Errore",
+    "contenido 1": "Impossibile LEGGERE dati \nnella schermata del cronometro",
+    "Error 2": "Errore",
+    "contenido 2": "Impossibile IMPOSTARE dati \nnella schermata del cronometro",
+    "Error 3": "Errore di validazione",
+    "contenido 3": "I valori non possono superare:\n- hh: 99\n- mm: 59\n- ss: 59",
+    "Error 4": "Errore di formato",
+    "contenido 4": "Inserire un formato valido (hh:mm:ss)."
+},
+
+"ui_historico_pausa": {
+    "window_title": "Storico Pause",
+    "label_1": "Storico Pause",
+    "pushButton_limpiar": "Pulisci",
+    "pushButton_refrescar": "Aggiorna",
+    "titulo_tabla": ["Tempo", "Nota"],
+    "qmenu_linea_1": "Copia riga selezionata",
+    "qmenu_linea_2": "Copia l'intera tabella"
+},
+
+"messages_historico_pausa": {
+    "Error 1": "Errore",
+    "contenido 1": "Impossibile caricare lo storico pause, \nclasse main non caricata",
+    "Error 2": "Errore",
+    "contenido 2": "Impossibile eliminare lo storico pause, \nclasse main non caricata",
+    "titulo 3": "Nessuna selezione",
+    "contenido 3": "Seleziona almeno una riga da copiare.",
+    "titulo 4": "Righe selezionate",
+    "contenido 4": "riga(e) negli appunti",
+    "titulo 5": "Copiato",
+    "contenido 5": "L'intera tabella è stata copiata negli appunti"
+},
+
+"ui_ayuda": {
+    "window_title": "Aiuto",
+    "label_2": "Aiuto",
+    "pushButton_limpiar": "Pulisci",
+    "pushButton_cerrar": "Chiudi"
+},
+
+"ui_config": {
+    "window_title": "Configurazione",
+    "label_1": "Configura",
+    "label_2": "Lingua",
+    "label_3": "Posizione Finestra Crono",
+    "label_4": "Posizione Finestra Evento",
+    "label_5": "Dimensione Finestra Evento",
+    "pushButton_guardar": "Salva",
+    "pushButton_cerrar": "Chiudi",
+    "label_1" : "Impostazioni",
+    "label" : "Font del Timer",
+    "pushButton_fontCrono" : "Seleziona Font",
+    "label_7" : "Imposta Colore Testo Timer",
+    "pushButton_colorTexto" : "Testo",
+    "pushButton_colorFondo" : "Sfondo",
+    "label_6" : "Font Evento",
+    "label_11" : "Prova qui",
+    "pushButton_fontEvent" : "Seleziona Font",
+    "label_8" : "Font Allarme",
+    "label_12" : "Prova qui",
+    "pushButton_fontAlarm" : "Seleziona Font",
+    "label_9" : "PERCORSO GUI",
+    "pushButton_rutaGUI" : "Percorso",
+    "pushButton_restaurarRuta" : "Ripristina Percorso",
+    "label_3" : "Chiudi l'applicazione per Applicare le modifiche",
+    "pushButton_restaurarConfig" : "Ripristina Tutto"
+},
+    "messages_config": {
+    "titulo 1": "Seleziona Directory",
+    "titulo 2": "Salvataggio",
+    "contenido 2": "Le modifiche sono state salvate \nriavvia l'applicazione",
+    "titulo 3": "Ripristinato",
+    "contenido 3": "salvato con valori predefiniti, \nriavvia l'applicazione"
+}
+
+  }
+

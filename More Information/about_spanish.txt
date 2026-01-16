@@ -1,0 +1,42 @@
+crea el archivo: com.cronolinux.cronoevent.metainfo.xml
+
+Crono-Event
+Version 1.0.0
+
+Este programa es un cronometro de eventos y actividades que permite dar la Hora y fijar alarmas.
+
+Colaboraciones o donaciones por este link
+
+Paypal
+https://www.paypal.com/ncp/payment/9JRJ7UTWCU476
+
+Ko-fi
+https://ko-fi.com/alexander4096
+
+Licencia: GNU GLP 3.0
+Categorías: Utileria
+Idiomas soportados: Spanish, English, German, French, Italian, Portuguese, Polish,
+                    Chinese Mandarine
+(opcion) cambiar el estilo de ventana crono
+Creado por: Alexander Rodriguez
+Lenguaje: Python 3.12 + PyQT6
+Sistema Operativo: Linux (Debian)
+Email: alexander1973r@gmail.com
+
+Que permite hacer el programa:
+
+- LLevar el control del tiempo en las Actividades por streaming
+- Controlar el tiempo para los puntos a tratar entre clases / Exposiones / Conferencias
+- Ayudar al usuario con avisos de actividad debe aplicar en el momento
+- Indicar mediante alarmas la terminacion de una accion.
+
+
+Contenido del programa:
+- Hora
+- cronometro con cuenta progresiva
+- cronometro con cuenta regresiva
+- cronometro de Evnetos para actividades
+- historico de Pausas
+- Alarma de tiempo progresivo
+
+

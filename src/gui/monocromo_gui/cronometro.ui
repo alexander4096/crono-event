@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>380</width>
+    <height>160</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>380</width>
+    <height>160</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>CHRONO-CRT v1.0</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+    background-color: #001100;
+    border: 3px solid #003300;
+}
+
+QMenuBar {
+    background-color: #000800;
+    color: #33ff33;
+    font-family: "Courier New", monospace;
+    font-size: 9pt;
+}
+
+QMenuBar::item:selected {
+    background-color: #002200;
+    color: #88ff88;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">QWidget#centralwidget {
+    background-color: #000a00;
+}</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>12</number>
+    </property>
+    <property name="leftMargin">
+     <number>10</number>
+    </property>
+    <property name="topMargin">
+     <number>10</number>
+    </property>
+    <property name="rightMargin">
+     <number>10</number>
+    </property>
+    <property name="bottomMargin">
+     <number>10</number>
+    </property>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>8</number>
+      </property>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_hora">
+        <property name="minimumSize">
+         <size>
+          <width>220</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>LCD</family>
+          <pointsize>28</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLineEdit#lineEdit_hora {
+    background-color: #001500;
+    border: 2px solid #00aa00;
+    border-radius: 4px;
+    color: #88ff88;
+    padding: 5px;
+    font-family: "LCD", "Courier New", monospace;
+    selection-background-color: #003300;
+}
+
+QLineEdit#lineEdit_hora:focus {
+    border: 2px solid #00ff00;
+    background-color: #002000;
+}</string>
+        </property>
+        <property name="text">
+         <string>00:00:00</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <property name="spacing">
+         <number>6</number>
+        </property>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_reporte">
+          <property name="minimumSize">
+           <size>
+            <width>120</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Courier New</family>
+            <pointsize>9</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit#lineEdit_reporte {
+    background-color: #000c00;
+    border: 1px solid #005500;
+    border-radius: 3px;
+    color: #55ff55;
+    padding: 3px;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+}</string>
+          </property>
+          <property name="text">
+           <string>> SYSTEM READY</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_extra">
+          <property name="minimumSize">
+           <size>
+            <width>120</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Courier New</family>
+            <pointsize>8</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+<string notr="true">QLineEdit#lineEdit_extra {
+    background-color: #000800;
+    border: 1px solid #003300;
+    border-radius: 2px;
+    color: #33cc33;
+    padding: 2px;
+    font-family: "Courier New", monospace;
+}</string>
+          </property>
+          <property name="text">
+           <string>SESSION 01/01</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <property name="spacing">
+       <number>6</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="pushButton_iniciar">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Courier New</family>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton#pushButton_iniciar {
+    background-color: #002200;
+    border: 1px solid #00aa00;
+    border-radius: 3px;
+    color: #88ff88;
+    padding: 3px;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+}
+
+QPushButton#pushButton_iniciar:hover {
+    background-color: #003300;
+    border: 1px solid #00ff00;
+    color: #ccffcc;
+}
+
+QPushButton#pushButton_iniciar:pressed {
+    background-color: #001100;
+    border: 1px solid #008800;
+}</string>
+        </property>
+        <property name="text">
+         <string>[INIT]</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_pausa">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Courier New</family>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton#pushButton_pausa {
+    background-color: #222200;
+    border: 1px solid #888800;
+    border-radius: 3px;
+    color: #ffff88;
+    padding: 3px;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+}
+
+QPushButton#pushButton_pausa:hover {
+    background-color: #333300;
+    border: 1px solid #aaaa00;
+    color: #ffffcc;
+}
+
+QPushButton#pushButton_pausa:pressed {
+    background-color: #111100;
+    border: 1px solid #666600;
+}</string>
+        </property>
+        <property name="text">
+         <string>[HOLD]</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_parar">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Courier New</family>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton#pushButton_parar {
+    background-color: #220000;
+    border: 1px solid #880000;
+    border-radius: 3px;
+    color: #ff8888;
+    padding: 3px;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+}
+
+QPushButton#pushButton_parar:hover {
+    background-color: #330000;
+    border: 1px solid #aa0000;
+    color: #ffcccc;
+}
+
+QPushButton#pushButton_parar:pressed {
+    background-color: #110000;
+    border: 1px solid #660000;
+}</string>
+        </property>
+        <property name="text">
+         <string>[STOP]</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_borrar">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Courier New</family>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton#pushButton_borrar {
+    background-color: #000022;
+    border: 1px solid #000088;
+    border-radius: 3px;
+    color: #8888ff;
+    padding: 3px;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+}
+
+QPushButton#pushButton_borrar:hover {
+    background-color: #000033;
+    border: 1px solid #0000aa;
+    color: #ccccff;
+}
+
+QPushButton#pushButton_borrar:pressed {
+    background-color: #000011;
+    border: 1px solid #000066;
+}</string>
+        </property>
+        <property name="text">
+         <string>[CLR]</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_ocultar">
+        <property name="minimumSize">
+         <size>
+          <width>90</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Courier New</family>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_ocultar {
+    color: #55ff55;
+    spacing: 5px;
+    font-family: "Courier New", monospace;
+}
+
+QCheckBox#checkBox_ocultar::indicator {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #00aa00;
+    background-color: #001100;
+}
+
+QCheckBox#checkBox_ocultar::indicator:hover {
+    border: 1px solid #00ff00;
+    background-color: #002200;
+}
+
+QCheckBox#checkBox_ocultar::indicator:checked {
+    background-color: #00aa00;
+    border: 1px solid #00ff00;
+}</string>
+        </property>
+        <property name="text">
+         <string>HIDE MENU</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>380</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Courier New</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <widget class="QMenu" name="menuModo">
+    <property name="title">
+     <string>MODE</string>
+    </property>
+    <property name="styleSheet">
+<string notr="true">QMenu {
+    background-color: #000800;
+    color: #55ff55;
+    border: 1px solid #005500;
+    font-family: "Courier New", monospace;
+}
+
+QMenu::item {
+    padding: 4px 20px;
+    background-color: transparent;
+}
+
+QMenu::item:selected {
+    background-color: #002200;
+    color: #88ff88;
+}
+
+QMenu::separator {
+    height: 1px;
+    background-color: #005500;
+    margin: 3px;
+}</string>
+    </property>
+    <widget class="QMenu" name="menuListado_de_Eventos">
+     <property name="title">
+      <string>EVENT LOG</string>
+     </property>
+     <addaction name="actionuno"/>
+    </widget>
+    <addaction name="actionCronometro_Progresivo"/>
+    <addaction name="actionCrono_Regresivo"/>
+    <addaction name="actionHora"/>
+    <addaction name="actionEvento"/>
+    <addaction name="separator"/>
+    <addaction name="menuListado_de_Eventos"/>
+    <addaction name="separator"/>
+    <addaction name="actionEditar_Evento"/>
+    <addaction name="actionAlarma"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionReg_Pausas"/>
+    <addaction name="separator"/>
+    <addaction name="actionConfiguracion_1"/>
+    <addaction name="separator"/>
+    <addaction name="actionSalida"/>
+   </widget>
+   <widget class="QMenu" name="menuAccion">
+    <property name="title">
+     <string>ACTION</string>
+    </property>
+    <widget class="QMenu" name="menuBorrar">
+     <property name="title">
+      <string>ERASE</string>
+     </property>
+     <addaction name="actionBorrar_Todo"/>
+     <addaction name="separator"/>
+     <addaction name="actionBorrar_Solo_Crono_Progresivo"/>
+     <addaction name="actionBorrar_Solo_Crono_Regresivo"/>
+     <addaction name="actionBorrar_solo_Crono_Evento"/>
+     <addaction name="separator"/>
+     <addaction name="actionPARAR_TODO_Crono"/>
+    </widget>
+    <addaction name="menuBorrar"/>
+    <addaction name="actionEditar"/>
+   </widget>
+   <widget class="QMenu" name="menuAcerca">
+    <property name="title">
+     <string>ABOUT</string>
+    </property>
+    <addaction name="actionAcerca"/>
+    <addaction name="actionAyuda"/>
+    <addaction name="actionLicencia"/>
+   </widget>
+   <addaction name="menuModo"/>
+   <addaction name="menuAccion"/>
+   <addaction name="menuAcerca"/>
+  </widget>
+  <!-- Actions mantienen compatibilidad -->
+  <action name="actionCronometro_Progresivo">
+   <property name="text">
+    <string>PROGRESSIVE</string>
+   </property>
+  </action>
+  <action name="actionCrono_Regresivo">
+   <property name="text">
+    <string>REGRESSIVE</string>
+   </property>
+  </action>
+  <action name="actionHora">
+   <property name="text">
+    <string>CLOCK</string>
+   </property>
+  </action>
+  <action name="actionEvento">
+   <property name="text">
+    <string>EVENT</string>
+   </property>
+  </action>
+  <action name="actionEditar_Evento">
+   <property name="text">
+    <string>EDIT EVENT</string>
+   </property>
+  </action>
+  <action name="actionAlarma">
+   <property name="text">
+    <string>ALARM</string>
+   </property>
+  </action>
+  <action name="actionReg_Pausas">
+   <property name="text">
+    <string>PAUSE LOG</string>
+   </property>
+  </action>
+  <action name="actionConfiguracion_1">
+   <property name="text">
+    <string>CONFIG</string>
+   </property>
+  </action>
+  <action name="actionSalida">
+   <property name="text">
+    <string>EXIT</string>
+   </property>
+  </action>
+  <action name="actionBorrar_Todo">
+   <property name="text">
+    <string>ERASE ALL</string>
+   </property>
+  </action>
+  <action name="actionBorrar_Solo_Crono_Progresivo">
+   <property name="text">
+    <string>ERASE PROG</string>
+   </property>
+  </action>
+  <action name="actionBorrar_Solo_Crono_Regresivo">
+   <property name="text">
+    <string>ERASE REG</string>
+   </property>
+  </action>
+  <action name="actionBorrar_solo_Crono_Evento">
+   <property name="text">
+    <string>ERASE EVENT</string>
+   </property>
+  </action>
+  <action name="actionPARAR_TODO_Crono">
+   <property name="text">
+    <string>STOP ALL</string>
+   </property>
+  </action>
+  <action name="actionEditar">
+   <property name="text">
+    <string>EDIT</string>
+   </property>
+  </action>
+  <action name="actionAcerca">
+   <property name="text">
+    <string>ABOUT</string>
+   </property>
+  </action>
+  <action name="actionAyuda">
+   <property name="text">
+    <string>HELP</string>
+   </property>
+  </action>
+  <action name="actionLicencia">
+   <property name="text">
+    <string>LICENSE</string>
+   </property>
+  </action>
+  <action name="actionuno">
+   <property name="text">
+    <string>ONE</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

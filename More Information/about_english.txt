@@ -1,0 +1,38 @@
+Create the file: com.cronolinux.cronoevent.metainfo.xml
+
+Crono-Event
+Version 1.0.0
+
+This program is a timer for events and activities that allows you to set the time and set alarms.
+
+Collaborations or donations via this link:
+
+PayPal
+https://www.paypal.com/ncp/payment/9JRJ7UTWCU476
+
+Ko-fi
+https://ko-fi.com/alexander4096
+
+License: GNU GLP 3.0
+Categories: Utilities
+Supported Languages: Spanish, English, German, French, Italian, Portuguese, Polish, Mandarin Chinese
+(Optional) Change the chrono window style
+Created by: Alexander Rodriguez
+Language: Python 3.12 + PyQT6
+Operating System: Linux (Debian)
+Email: alexander1973r@gmail.com
+
+What the program allows you to do:
+
+- Track time during streaming activities
+- Manage time for topics to be covered between classes/presentations/conferences
+- Assist the user with notifications of activities that need to be completed
+- Indicate the completion of an action with alarms.
+
+Program Content:
+- Time
+- Countdown timer
+- Countdown timer
+- Event timer for activities
+- Break history
+- Gradual time alarm

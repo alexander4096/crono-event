@@ -1,0 +1,106 @@
+
+he realizado un programa en python 3.12 con pyqt6 bajo linux debian 12 y
+necesito publicarlo en flathub, tengo el codigo fuente pero pero necesito
+los pasos de manera detallada.
+
+Nota: tambien tengo la version binaria hecha con pyinstaller
+
+------------------
+
+Ayudame a distribuir mi aplicacion para la pagina de flathub. EXPLICAME CADA DETALLE que
+se necesita como: LOS ARCHIVOS
+NECESARIOS, RUTAS DE DIRECTORIOS Y CONFIGURACIONES , mi aplicacion esta hecha
+en python 12 con pyQT6 bajo linux debian 12. es un programa para llevar un
+cronometro de eventos. estos son los subdirectorios y archivos que usa. las
+ventanas son cargadas el subdirectorio /gui con archivos .ui , Es multi-idioma
+por lo  tiene archivos para traducir a diferentes idiomas en la carpeta /translations
+, tengo los iconos para diferentes resoluciones 256, 128, 64 , svg en /ico
+y una carpeta /wav para sonidos. tambien he creado el binario con pyinstaller
+para ejecutarlo sin necesitar el interprete y tengo una version tar.gz con un
+script para su instalacion. Mi programa tambien guarda configuraciones en la cuenta
+del usuario con la ruta /home/usuario/.config/crono-event/
+
+
+Tengo muchas dudas y no se que paso continuar, ya hice un archivo
+com.cronolinux.cronoevent.yaml con el binario
+de python para crear un crono-event.flatpak archivo llamado crono-event.flatpak
+y pude instalarlo y funciona pero el archivo no muestra
+informacion y descripcion al llamarlo por el programa discover de KDE.
+
+
+El nombre de mi aplicacion es: crono-event
+version: 1.0.0
+nombre programador: Alexander Rodriguez
+email: alexander1973r@gmail.com
+dominio (no tengo)
+website: no tengo:
+cuenta en github:  https://github.com/alexander4096
+
+|_gui/
+    |_ compacto_gui
+    |_ monocromo_gui
+    |_ simple_gui
+    |_ watch_gui
+        acerca_chinese.ui
+        acerca_english.ui
+        acerca_french.ui
+        acerca_german.ui
+        acerca_italian.ui
+        acerca_portuguese.ui
+        acerca_spanish.ui
+        ayuda.ui
+        borrar_crono.ui
+        cronometro.ui
+        edit_alarma.ui
+        edit_config.ui
+        edit_crono.ui
+        edit_evento.ui
+        histo_pausa.ui
+        licencia.ui
+        ver_alarma.ui
+        ver_evento.ui
+|_icons/
+        alarm-clock_icon.svg
+        alarm-clock_icon_64x64.png
+        alarm-clock_icon_128x128.png
+        alarm-clock_icon_258_256.png
+|_translations/
+        __init__.py
+        english.json
+        french.json
+        german.json
+        italian.json
+        mandarin chinese.json
+        polish.json
+        portuguese.json
+        spanish.json
+|_wav/
+        alarm-clock-beep.wav
+        alarm-digital-clock-beep-989.wav
+        alarm-tone-996.wav
+        alert-alarm-1005.wav
+        battleship-alarm-1001.wav
+|_screenshots/
+        screenshot1.png
+        screenshot2.png
+        screenshot3.png
+        screenshot4.png
+        screenshot5.png
+        screenshot6.png
+        screenshot7.png
+/
+about.txt
+acerca.py
+ayuda.py
+configuracion.py
+edit_alarma.py
+edit_config.py
+edit_crono.py
+edit_evento.py
+historico_pausa.py
+licencia.py
+Licencia_gpl-3.0.txt
+main.py
+requirements.txt
+ruta_archivo_linux.py
+ver_alarma.py
