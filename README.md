@@ -1,82 +1,40 @@
-# crono-event
+# ⏱️ Crono-Event V1.0.0
 
-I present to you my new program for the Linux community.
+**A professional-grade time management suite for the Linux Community.**
 
-It's called:
-Crono-Event
-Version 1.0.0
-It's written in Python 3.13 + PyQt6 and Nuitka for binary packaging.
-Operating System: Linux (Debian 13.2 amd64)
+Developed with **Python 3.13** and **PyQt6**, Crono-Event is a robust tool designed for high-precision tracking. It is the perfect companion for content creators, teachers, and professionals who demand accuracy in their daily workflows.
 
-It's designed for the Linux operating system.
+---
 
-With this program, you can accurately track event times, create alarms, see the time, and much more...
+## 🚀 Key Features
 
-Who is this program for?
+* **Dual Mode Timer:** Features both accurate countdown and count-up timers with adjustable start times.
+* **Audio-Visual Alarms:** Includes scheduled alerts with customizable sound to signal the start or end of critical tasks.
+* **Event Management System:** Dedicated tools for tracking class sessions, presentations, or long-form activities with persistent storage capabilities.
+* **Break History Tracking:** Automatically logs exactly when you pause or finish activities for detailed productivity analysis.
+* **OBS & Streaming Ready:** Includes a "Time in Foreground" mode, specifically optimized for live streamers, speedrunners, and video tutorials.
+* **Global Reach:** Full multi-language support for 7 languages: English, Spanish, French, Portuguese, German, Italian, and Mandarin Chinese.
 
-Content creators, professionals, teachers, students, coordinators, or anyone who needs to track the time of activities with set periods.
+---
 
-## Features: 
+## 🛠️ Technical Specifications
 
-1) Countdown and countdown timer: allows you to track the duration of an activity with the option to adjust its start time.
+* **Language:** Python 3.13+
+* **UI Framework:** PyQt6 (for a fluid and modern interface)
+* **Packaging:** High-performance binaries created via Nuitka
+* **Target OS:** Linux (Optimized for Debian 12/13 amd64)
+* **License:** GNU GPL 3.0 (Open Source)
 
-2) Scheduled alarms with sound: alerts you when to start or finish an activity.
+---
 
-3) Event Tracking: We can accurately track time for activities, whether in class, working on assignments, giving presentations, or expositions. We also have a system for storing events if needed.
+## 💻 For Developers
 
-4) Break History: This is very useful when you need to mark when you finish an activity.
+The application stores user configurations in the standard Linux directory:
+`~/.config/crono-event`
 
-5) Time in Foreground: Displaying the time in the foreground is a useful way to track events in OBS or streaming.
-
-6) Multilingual: This allows the community from different countries to use the program comfortably in their own language.
-
-## Available languages:
-
-- Spanish
-- English
-- French
-- Portuguese
-- German
-- Italian
-- Mandarin Chinese
-
-## Donations
-
-(Donations) PayPal
-https://www.paypal.com/ncp/payment/9JRJ7UTWCU476
-
-(Donations) Ko-fi
-https://ko-fi.com/alexander4096
-
-## Creator:
-Alexander Rodriguez
-email: alexander1973r@gmail.com
-
-## Screenshot
-
-![Captura 1](screenshots/Screenshot_0001.png)
-
-![Captura 2](screenshots/Screenshot_0002.png)
-
-![Captura 3](screenshots/Screenshot_0003.png)
-
-![Captura 4](screenshots/Screenshot_0004.png)
-
-
-
-## For developers:
-The code is written in:
-
-Python 3.13
-
-PyQt6 library
-
-The paths to store the configuration are for Linux systems:
-
-/home/[username]/.config/crono-event
-
-Installing the requirements for the libraries is recommended.
-
-# Python 3.13 minimum recommended
-
-pip install -r requirements.txt
+### Installation
+To run from source or contribute to the project:
+1. Ensure Python 3.13 or higher is installed.
+2. Install the necessary dependencies:
+   ```bash
+   pip install -r requirements.txt
