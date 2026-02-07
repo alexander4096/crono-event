@@ -1,0 +1,197 @@
+{
+    "ui_crono": {
+        "window_title": "Crono Event V1",
+        "menuModo": "Mod",
+        "actionAlarma": ["Alarm Düzenle (KAPALI)", "Alarm Düzenle (AÇIK)"],
+        "actionConfiguracion_1": "Yapılandırma",
+        "actionCrono_Regresivo": "Geri Sayım",
+        "actionCronometro_Progresivo": "Kronometre",
+        "lineEdit_reporte": ["Kronometre", "Geri Sayım", "Zaman", "Etkinlik"],
+        "actionEditar_Evento": "Etkinliği Düzenle",
+        "actionEvento": "Etkinlik",
+        "actionHora": "Zaman",
+        "actionReg_Pausas": "Duraklatma Günlüğü",
+        "actionSalida": "Çıkış",
+        "menuAccion": "Eylem",
+        "menuBorrar": "Sil",
+        "actionEditar": "Düzenle",
+        "actionBorrar_Todo": "Hepsini Sil",
+        "actionBorrar_Solo_Crono_Progresivo": "Sadece Kronometreyi Sil",
+        "actionBorrar_Solo_Crono_Regresivo": "Sadece Geri Sayımı Sil",
+        "actionBorrar_solo_Crono_Evento": "Sadece Etkinlik Sayacını Sil",
+        "actionPARAR_TODO_Crono": "TÜMÜNÜ DURDUR [Sayaçlar]",
+        "menuListado_de_Eventos": "Etkinlik Listesi",
+        "menuAcerca": "Hakkında",
+        "actionAcerca": "Hakkında",
+        "actionAyuda": "Yardım",
+        "actionlicencia": "Lisans",
+        "pushButton_iniciar": "Başlat",
+        "pushButton_pausa": "Duraklat",
+        "pushButton_parar": "Durdur",
+        "pushButton_borrar": "Temizle"
+    },
+
+    "messages_crono": {
+        "Error 1": "JSON Hatası",
+        "contenido 1": "Uyumsuz içerik"
+    },
+
+    "ui_edit_event": {
+        "window_title": "Etkinliği Düzenle",
+        "label_1": "hh:mm:ss",
+        "label_2": "Etkinliği Düzenle",
+        "label_3": "Aktivite",
+        "label_4": "Etkinlik Listesi",
+        "pushButton_agregar": "Ekle",
+        "pushButton_eliminar": "Sil",
+        "pushButton_guardar": "Kaydet",
+        "pushButton_nuevo": "Yeni",
+        "pushButton_poner_color": "Renk",
+        "pushButton_quitar": "Kaldır",
+        "qmenu_linea_1": "Tümünü kopyala",
+        "qmenu_linea_2": "Seçimi kopyala"
+    },
+
+    "messages_edit_event": {
+        "Error 1": "JSON Hatası",
+        "contenido 1": "Uyumsuz içerik",
+        "Error 2": "Genel Hata",
+        "contenido 2": "Etkinlik seçerken genel hata",
+        "Error 3": "İzin Hatası",
+        "contenido 3": "Dosya kaydedilirken hata",
+        "Error 4": "Klasör Hatası",
+        "contenido 4": "Klasör veya dosya hatası",
+        "Error 5": "JSON Hatası 2",
+        "contenido 5": "JSON oluşturma hatası",
+        "Error 6": "Açıklanmayan Hata",
+        "contenido 6": "Dosya kaydedilirken açıklanmayan hata",
+        "Error 7": "Etkinlik Hatası",
+        "contenido 7": "Dosya kaydedilirken açıklanmayan hata",
+        "Error 8": "Silme Hatası",
+        "contenido 8": "Dosya mevcut değil",
+        "Error 9": "Silme Hatası",
+        "contenido 9": "Silme izniniz yok",
+        "Error 10": "Silme Hatası",
+        "contenido 10": "Açıklanmayan hata",
+        "Error 11": "Doğrulama Hatası",
+        "contenido 11": "Değerler şundan büyük olmalıdır:\n - ss: 00\n - dd: 00\n - sn: 00",
+        "Error 12": "Doğrulama Hatası",
+        "contenido 12": "Aktivite alanı boş",
+        "title 1": "Etkinlik Kaydediliyor",
+        "respuesta 1": "Etkinlik kaydedildi",
+        "title 2": "Etkinlik Siliniyor",
+        "respuesta 2": "Etkinlik silindi"
+    },
+
+    "ui_edit_alarm": {
+        "window_title": "Alarmı Düzenle",
+        "label_1": "Sadece İlerleyen Alarm",
+        "label_2": "Ayarla hh:mm:ss",
+        "label_3": "Alarm Açıklaması",
+        "checkBox_activar": "Alarmı Etkinleştir",
+        "label_4": "Ses",
+        "pushButton_borrar": "Temizle",
+        "pushButton_salvar": "Kaydet",
+        "qmenu_linea_1": "Tümünü kopyala",
+        "qmenu_linea_2": "Seçimi kopyala"
+    },
+
+    "messages_edit_alarm": {
+        "Error 1": "Genel Hata",
+        "contenido 1": "Alarm etkinleştirilemiyor, \nana sınıf yüklenmedi",
+        "Error 2": "Doğrulama Hatası",
+        "contenido 2": "Değerler şundan büyük olmalıdır:\n - hh: 00\n - mm: 00\n - ss: 00",
+        "Error 3": "Doğrulama Hatası",
+        "contenido 3": "Zaman tekrarlandı",
+        "Error 4": "Alarm Hatası",
+        "contenido 4": "Silmek için bir Öğe seçmelisiniz",
+        "titulo 5": "Alarm Kaydediliyor",
+        "contenido 5": "Alarmlar kaydedildi"
+    },
+
+    "ui_edit_crono": {
+        "window_title": "Zamanlayıcıyı Düzenle",
+        "label_1": "Zamanlayıcıyı Düzenle:",
+        "label_2": "Mod",
+        "label_3": "Biçim: hh:mm:ss",
+        "label_4": "Sonuç",
+        "comboBox_modo_crono": ["Kronometre", "Geri Sayım", "Etkinlik"],
+        "pushButton_actualizar": "Getir",
+        "pushButton_limpiar": "Temizle",
+        "pushButton_aplicar": "Uygula"
+    },
+
+    "messages_edit_crono": {
+        "Error 1": "Hata",
+        "contenido 1": "Zamanlayıcı ekranındaki veri OKUNAMIYOR",
+        "Error 2": "Hata",
+        "contenido 2": "Zamanlayıcı ekranındaki veri AYARLANAMIYOR",
+        "Error 3": "Doğrulama Hatası",
+        "contenido 3": "Değerler şunları aşamaz:\n- hh: 99\n- mm: 59\n- ss: 59",
+        "Error 4": "Biçim Hatası",
+        "contenido 4": "Lütfen geçerli bir biçim girin (hh:mm:ss)."
+    },
+
+    "ui_historico_pausa": {
+        "window_title": "Duraklatma Geçmişi",
+        "label_1": "Duraklatma Geçmişi",
+        "pushButton_limpiar": "Temizle",
+        "pushButton_refrescar": "Yenile",
+        "titulo_tabla": ["Zaman", "Not"],
+        "qmenu_linea_1": "Seçili satırı kopyala",
+        "qmenu_linea_2": "Tüm tabloyu kopyala"
+    },
+
+    "messages_historico_pausa": {
+        "Error 1": "Hata",
+        "contenido 1": "Duraklatma geçmişi yüklenemiyor, \nAna sınıf yüklenmedi",
+        "Error 2": "Hata",
+        "contenido 2": "Duraklatma geçmişi silinemiyor, \nAna sınıf yüklenmedi",
+         "titulo 3": "Seçim yok",
+        "contenido 3": "Kopyalamak için lütfen en az bir satır seçin.",
+        "titulo 4": "Seçili satırlar",
+        "contenido 4": "satır panoya kopyalandı",
+        "titulo 5": "Kopyalandı",
+        "contenido 5": "Tüm tablo panoya kopyalandı"
+    },
+
+    "ui_ayuda": {
+        "window_title": "Yardım",
+        "label_2": "Yardım",
+        "pushButton_limpiar": "Temizle",
+        "pushButton_cerrar": "Kapat"
+    },
+
+    "ui_config": {
+        "window_title": "Yapılandırma",
+        "label_1": "Ayarlar",
+        "label_2": "Dil",
+        "label_3": "Uygulamak için uygulamayı kapatın",
+        "label_4": "Etkinlik Penceresi Konumu",
+        "label_5": "Etkinlik Penceresi Boyutu",
+        "pushButton_guardar": "Kaydet",
+        "pushButton_cerrar": "Kapat",
+        "label" : "Zamanlayıcı Yazı Tipleri",
+        "pushButton_fontCrono" : "Yazı Tipi Seç",
+        "label_7" : "Zamanlayıcı Metin Rengini Ayarla",
+        "pushButton_colorTexto" : "Metin",
+        "pushButton_colorFondo" : "Arka Plan",
+        "label_6" : "Etkinlik Yazı Tipi",
+        "label_11" : "Burada Test Et",
+        "pushButton_fontEvent" : "Yazı Tipi Seç",
+        "label_8" : "Alarm Yazı Tipi",
+        "label_12" : "Burada Test Et",
+        "pushButton_fontAlarm" : "Yazı Tipi Seç",
+        "label_9" : "GUI YOLU",
+        "pushButton_rutaGUI" : "Yol",
+        "pushButton_restaurarRuta" : "Yolu Geri Yükle",
+        "pushButton_restaurarConfig" : "Tümünü Geri Yükle"
+    },
+    "messages_config": {
+    "titulo 1": "Dizin Seç",
+    "titulo 2": "Kaydediliyor",
+    "contenido 2": "Değişiklikler kaydedildi \nuygulamayı yeniden başlatın",
+    "titulo 3": "Geri Yüklendi",
+    "contenido 3": "varsayılan değerlerle kaydedildi, \nuygulamayı yeniden başlatın"
+}
+}
